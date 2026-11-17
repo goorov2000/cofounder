@@ -1,0 +1,9 @@
+.ds-disclosure { display: grid; grid-template-rows: 0fr; opacity: 0; visibility: hidden; transition: grid-template-rows var(--ds-motion-layout) var(--ds-motion-ease), opacity var(--ds-motion-exit) var(--ds-motion-ease), visibility 0s var(--ds-motion-layout); }
+.ds-disclosure[data-open='true'] { grid-template-rows: 1fr; opacity: 1; visibility: visible; transition: grid-template-rows var(--ds-motion-layout) var(--ds-motion-ease), opacity var(--ds-motion-enter) var(--ds-motion-ease), visibility 0s; }
+.ds-disclosure-clip { min-height: 0; overflow: hidden; }
+.ds-motion-example { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: var(--ds-space-6); align-items: start; }
+.ds-motion-example .ds-example-stack { color: var(--ds-text-secondary); font-size: var(--ds-text-sm); }
+@media (max-width: 899px) { .ds-motion-example { grid-template-columns: minmax(0, 1fr); } }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

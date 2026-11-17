@@ -1,0 +1,62 @@
+.ds-calculation-workbench { display: grid; gap: var(--ds-space-6); font: 400 var(--ds-text-sm)/1.5 var(--ds-font-body); color: var(--ds-text); }
+.ds-calculation-workbench h3, .ds-calculation-workbench h4, .ds-calculation-workbench p { margin: 0; }
+.ds-calc-intro h3 { font-size: var(--ds-text-h2); font-weight: 500; line-height: var(--ds-leading-heading); }
+.ds-calc-intro-title { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--ds-space-2) var(--ds-space-3); }
+.ds-calc-intro-title > span { font-size: var(--ds-text-xs); color: var(--ds-text-secondary); }
+.ds-calc-intro p { margin-top: var(--ds-space-2); color: var(--ds-text-secondary); }
+.ds-calc-results { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--ds-space-3); }
+.ds-calc-result { min-width: 0; padding: var(--ds-space-4); border: 1px solid var(--ds-border); border-radius: var(--ds-radius-card); background: var(--ds-surface-muted); }
+.ds-calc-result header { display: grid; gap: var(--ds-space-1); }
+.ds-calc-result header strong { font-size: var(--ds-text-md); font-weight: 500; }
+.ds-calc-result header span, .ds-calc-result > small { color: var(--ds-text-secondary); font-size: var(--ds-text-xs); }
+.ds-calc-number { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--ds-space-1); margin-top: var(--ds-space-4); font-size: var(--ds-text-h2); font-weight: 500; line-height: 1.3; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.ds-calc-number > span { color: var(--ds-text-secondary); font-size: var(--ds-text-sm); font-weight: 400; }
+.ds-calc-result.is-unknown .ds-calc-number { font-size: var(--ds-text-md); font-weight: 400; color: var(--ds-text-secondary); }
+.ds-calculation-workbench summary { display: flex; align-items: center; justify-content: space-between; gap: var(--ds-space-2); cursor: pointer; min-height: 36px; list-style: none; }
+.ds-calculation-workbench summary::-webkit-details-marker { display: none; }
+.ds-calculation-workbench summary svg { flex-shrink: 0; }
+.ds-calculation-workbench details[open] > summary svg { transform: rotate(180deg); }
+.ds-calc-formula { margin-top: var(--ds-space-2); font-size: var(--ds-text-xs); }
+.ds-calc-formula summary, .ds-calc-source summary { color: var(--ds-text-secondary); }
+.ds-calc-formula p { padding-top: var(--ds-space-2); overflow-wrap: anywhere; }
+.ds-calc-formula p + p { color: var(--ds-text-secondary); }
+.ds-calc-section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: var(--ds-space-3); margin-bottom: var(--ds-space-4); }
+.ds-calc-section-heading h4 { font-size: var(--ds-text-lg); font-weight: 500; }
+.ds-calc-section-heading > span { font-size: var(--ds-text-xs); color: var(--ds-text-secondary); }
+.ds-calc-empty { display: flex; align-items: flex-start; gap: var(--ds-space-3); margin-bottom: var(--ds-space-4); padding: var(--ds-space-4); border: 1px dashed var(--ds-border); border-radius: var(--ds-radius-control); }
+.ds-calc-empty > svg { color: var(--ds-text-secondary); flex-shrink: 0; margin-top: 2px; }
+.ds-calc-empty strong { font-weight: 500; }
+.ds-calc-empty p { margin-top: var(--ds-space-1); color: var(--ds-text-secondary); }
+.ds-calc-empty button { margin-top: var(--ds-space-2); }
+.ds-calc-settings { display: grid; grid-template-columns: 1fr 1fr 100px; gap: var(--ds-space-3); margin-bottom: var(--ds-space-4); }
+.ds-calc-inputs { display: grid; align-items: start; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--ds-space-4); }
+.ds-calc-input { min-width: 0; padding: var(--ds-space-4); border: 1px solid var(--ds-border); border-radius: var(--ds-radius-card); }
+.ds-calc-input-caption { display: flex; justify-content: space-between; flex-wrap: wrap; gap: var(--ds-space-2); margin-bottom: var(--ds-space-3); color: var(--ds-text-secondary); font-size: var(--ds-text-xs); }
+.ds-calc-input-caption > span:first-child { color: var(--ds-text); font-weight: 500; }
+.ds-calc-value { position: relative; }
+.ds-calc-value input { padding-right: 60px; font-variant-numeric: tabular-nums; }
+.ds-calc-value > span { position: absolute; right: var(--ds-space-3); top: 39px; color: var(--ds-text-secondary); font-size: var(--ds-text-sm); pointer-events: none; max-width: 44px; overflow: hidden; text-overflow: ellipsis; }
+.ds-calc-input .ds-calc-field-hint { margin-top: var(--ds-space-2); color: var(--ds-text-secondary); font-size: var(--ds-text-xs); }
+.ds-calc-source { margin-top: var(--ds-space-2); font-size: var(--ds-text-xs); }
+.ds-calc-source .ds-field { margin-top: var(--ds-space-2); }
+.ds-calc-source > p { margin-top: var(--ds-space-2); color: var(--ds-text-secondary); }
+.ds-calc-additional > summary { margin-bottom: var(--ds-space-2); }
+.ds-calc-footer { padding-top: var(--ds-space-4); border-top: 1px solid var(--ds-border); color: var(--ds-text-secondary); font-size: var(--ds-text-xs); }
+.ds-calc-footer p + p { margin-top: var(--ds-space-1); }
+.ds-calculation-workbench .ds-alert ul { padding-left: var(--ds-space-4); margin: 0; }
+.ds-calculation-workbench summary:focus-visible { outline: 2px solid var(--ds-focus); outline-offset: 3px; border-radius: var(--ds-radius-control); }
+.modal.workspace-calculator-modal { width: min(960px, calc(100vw - 32px)); }
+@media (max-width: 639px) {
+  .ds-calculation-workbench { gap: var(--ds-space-5); }
+  .ds-calc-results { grid-template-columns: 1fr; gap: var(--ds-space-2); }
+  .ds-calc-result { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: var(--ds-space-2); padding: var(--ds-space-3); }
+  .ds-calc-result header { align-self: start; }
+  .ds-calc-number { margin-top: 0; justify-content: flex-end; text-align: right; font-size: var(--ds-text-h3); }
+  .ds-calc-result > small { grid-column: 2; text-align: right; }
+  .ds-calc-formula { grid-column: 1 / -1; margin-top: var(--ds-space-1); }
+  .ds-calc-inputs { grid-template-columns: 1fr; gap: var(--ds-space-3); }
+  .ds-calc-settings { grid-template-columns: 1fr 1fr; }
+  .ds-calc-settings > .ds-field:last-of-type { grid-column: 1 / -1; }
+  .ds-calc-input { padding: var(--ds-space-3); }
+  .workspace-calculator-modal .modal-body { padding: var(--ds-space-4); }
+}

@@ -1,0 +1,71 @@
+.ds-project-panel { background: var(--ds-surface-muted); border: 1px solid var(--ds-border); border-radius: var(--ds-radius-card); padding: 16px; color: var(--ds-text); font: 400 13px/1.5 var(--ds-font-body); overflow-wrap: anywhere; }
+.ds-project-panel summary { cursor: pointer; list-style: none; }
+.ds-project-panel summary::-webkit-details-marker { display: none; }
+.ds-project-current { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; margin-top: 12px; }
+.ds-project-current strong { font-size: 15px; font-weight: 500; }
+.ds-project-current > span { color: var(--ds-text-secondary); font-size: 12px; white-space: nowrap; }
+.ds-project-progress { display: flex; gap: 4px; margin-top: 12px; }
+.ds-project-progress > span { height: 3px; flex: 1; border-radius: 2px; background: var(--ds-border); }
+.ds-project-progress > .is-saved { background: var(--ds-action); }
+.ds-project-progress > .is-current { background: var(--ds-text-secondary); }
+.ds-project-progress-label { display: flex; justify-content: space-between; gap: 8px; margin-top: 6px; font-size: 11px; color: var(--ds-text-secondary); }
+.ds-project-progress-label > span { color: var(--ds-accent); }
+.ds-project-section { border-top: 1px solid var(--ds-border); padding-top: 12px; margin-top: 12px; }
+.ds-project-accordion-heading { position: relative; display: flex; align-items: center; gap: 4px; padding-right: 24px; }
+.ds-project-accordion-heading > h3 { margin: 0; font: inherit; }
+.ds-project-panel .ds-project-accordion-toggle { display: inline-flex; align-items: center; min-height: 28px; padding: 0; border: 0; background: transparent; color: var(--ds-text-secondary); font: 500 13px/1.5 var(--ds-font-body); }
+.ds-project-panel .ds-project-accordion-toggle:hover { background: transparent; color: var(--ds-text); }
+/* Stretch the toggle's hit area across the heading; the info button stays a separate control. */
+.ds-project-accordion-toggle::after { content: ''; position: absolute; inset: 0; border-radius: var(--ds-radius-control); }
+.ds-project-accordion-toggle > svg { position: absolute; right: 0; top: calc(50% - 8px); }
+.ds-project-accordion-toggle > svg { transition: transform var(--ds-motion-layout) var(--ds-motion-ease); }
+.ds-project-panel .ds-disclosure :focus-visible { outline-offset: -2px; }
+.ds-project-accordion-toggle[aria-expanded=true] > svg { transform: rotate(180deg); }
+.ds-project-accordion-toggle:focus-visible { outline: none; }
+.ds-project-accordion-toggle:focus-visible::after { outline: 2px solid var(--ds-focus); outline-offset: 3px; }
+.ds-project-coverage-count { margin-left: auto; font-size: 11px; color: var(--ds-text-secondary); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ds-project-panel .ds-project-link { display: flex; width: 100%; align-items: center; justify-content: flex-start; gap: 12px; padding: 10px 8px; margin: 0; min-height: 48px; border: 0; border-radius: var(--ds-radius-control); background: transparent; color: var(--ds-text); text-align: left; white-space: normal; }
+.ds-project-panel .ds-project-link:hover { background: var(--ds-surface-hover); }
+.ds-project-link > svg { color: var(--ds-text-secondary); }
+.ds-project-link > span { min-width: 0; }
+.ds-project-link strong, .ds-project-link small { display: block; }
+.ds-project-link strong { font-size: 13px; font-weight: 500; }
+.ds-project-link small { font-size: 11px; line-height: 1.5; color: var(--ds-text-secondary); font-weight: 400; margin-top: 2px; }
+.ds-project-memory { padding-top: 12px; }
+.ds-project-memory ul { margin: 0; padding-left: 16px; }
+.ds-project-memory li + li { margin-top: 6px; }
+.ds-project-memory-empty { margin: 0; color: var(--ds-text-secondary); }
+.ds-project-memory-notice { margin: 0 0 12px; color: var(--ds-text-secondary); }
+.ds-coverage-next, .ds-coverage-notice { margin: 0 0 6px; font-size: 11px; line-height: 1.5; color: var(--ds-text-secondary); }
+.ds-coverage-progress + .ds-coverage-notice { margin: 8px 0 0; }
+.ds-project-memory .ds-coverage-list { list-style: none; padding: 0; margin: 0; }
+.ds-project-memory .ds-coverage-list > li + li { margin-top: 0; }
+.ds-coverage-list summary { display: flex; align-items: center; gap: 6px; min-height: 32px; padding: 4px 0; cursor: pointer; list-style: none; border-radius: var(--ds-radius-control); }
+.ds-coverage-list summary::-webkit-details-marker { display: none; }
+.ds-coverage-list summary > svg { flex: 0 0 auto; color: var(--ds-text-secondary); }
+.ds-coverage-list summary > svg.is-covered { color: var(--ds-accent); }
+.ds-coverage-list summary > span { flex: 1; min-width: 0; font-size: 12px; line-height: 1.5; }
+.ds-coverage-list summary > small { color: var(--ds-text-secondary); font-size: 10px; white-space: nowrap; }
+.ds-coverage-list summary:focus-visible { outline: 2px solid var(--ds-focus); outline-offset: 2px; }
+.ds-coverage-list .is-next summary > span { font-weight: 500; }
+.ds-coverage-list details > p { margin: 2px 0 8px 21px; font-size: 11px; line-height: 1.5; overflow-wrap: anywhere; }
+.ds-coverage-list details > .ds-coverage-requirement { color: var(--ds-text-secondary); }
+.ds-project-panel .route-content.is-compact { padding: 12px 0 0; }
+.ds-project-panel .stage-list { margin: 0; }
+.ds-project-panel .stage::before { display: none; }
+.ds-project-panel .is-compact .stage button { align-items: center; gap: 10px; min-height: 36px; padding: 4px 8px; background: transparent; color: var(--ds-text); }
+.ds-project-panel .is-compact .stage button:hover { background: var(--ds-surface-hover); }
+.ds-project-panel .is-compact .stage.is-current button { background: var(--ds-accent-subtle); }
+.ds-project-panel .stage-node { width: 24px; height: 24px; border: 0; border-radius: var(--ds-radius-control); box-shadow: none; }
+.ds-project-panel .stage-title { font-size: 12px; }
+.ds-project-panel .stage-status { display: none; }
+@media (max-width: 639px) {
+  .ds-project-panel .ds-project-accordion-toggle { min-height: 44px; }
+  .ds-coverage-list summary { min-height: 44px; }
+  .ds-project-panel .is-compact .stage button { min-height: 44px; }
+  .ds-project-panel .ds-project-link strong { font-size: 14px; }
+  .ds-project-panel .ds-project-link small { font-size: 12px; }
+}
+.ds-coverage-review { margin-block: 12px; font-size: 12px; line-height: 1.5; }
+.ds-coverage-review summary { cursor: pointer; color: var(--ds-text-secondary); }
+.ds-coverage-review summary:focus-visible { outline: 2px solid var(--ds-focus); outline-offset: 3px; }

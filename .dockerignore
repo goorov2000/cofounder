@@ -1,0 +1,13 @@
+*
+!package.json
+!package-lock.json
+!Dockerfile
+!index.html
+!vite.config.ts
+!tsconfig*.json
+!src
+!src/**
+!shared
+!shared/**
+!server
+!server/**

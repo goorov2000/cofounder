@@ -1,0 +1,5 @@
+.ds-info-hint { display: inline-flex; position: relative; z-index: 1; flex-shrink: 0; }
+.ds-info-hint .ds-info-hint-trigger { display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; min-height: 28px; padding: 0; border: 0; border-radius: var(--ds-radius-control); background: transparent; color: var(--ds-text-secondary); cursor: help; }
+.ds-info-hint .ds-info-hint-trigger:hover { background: var(--ds-surface-hover); color: var(--ds-text); }
+.ds-info-hint-content { position: fixed; inset: auto; margin: 0; width: max-content; max-width: min(260px, calc(100vw - 16px)); padding: 10px 12px; border: 1px solid var(--ds-border); border-radius: var(--ds-radius-control); background: var(--ds-surface); color: var(--ds-text-secondary); box-shadow: var(--ds-shadow-popover); font: 400 12px/18px var(--ds-font-body); overflow-wrap: anywhere; }
+@media (pointer: coarse) { .ds-info-hint .ds-info-hint-trigger { width: 44px; height: 44px; } }

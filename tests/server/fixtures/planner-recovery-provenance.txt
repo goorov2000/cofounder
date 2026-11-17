@@ -1,0 +1,15 @@
+Synthetic historical regression fixtures, copied without editing the historical artifacts.
+Source commit: f6054ed6e7ba34bbdbe58fda623df056edbe7dcf
+
+malformed-plans.json:
+.repair/2026-11-15/control-final-01/mock_tool/model-output.jsonl
+D13-prepare, cofounder_action, attempts 1 and 3.
+Preserves exact outputText, structured assistant output and usage.
+Attempt 1 contains two identical JSON documents; attempt 3 contains different queries,
+an extra object and prose. Neither is repaired by string deduplication or by selecting
+one model message. Tests require a distinct, accounted strict-schema plan repair call.
+
+ d14-promise.json:
+.repair/2026-11-15/control-final-01/live_model/model-output.jsonl
+D14, cofounder_reply. Only the exact observable message, choices and artifactDraft
+are retained to exercise the narrow dangling-promise guard.

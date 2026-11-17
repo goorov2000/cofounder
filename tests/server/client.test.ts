@@ -1,0 +1,20 @@
+import { afterEach, expect, it, vi } from 'vitest';
+import { getStatus, sendChat } from '../../src/lib/api.js';
+import type { ChatRequest } from '../../shared/types.js';
+const input: ChatRequest = { requestId: 'request-0001', projectId: 'project-0001', moduleId: 'idea', intent: 'message', message: 'Не знаю', context: { name: '', description: '', facts: [], artifacts: [], history: [] } };
+const status = { configured: true, reason: '', model: 'gpt-6-luna', searchEnabled: false };
+const reply = { requestId: input.requestId, model: 'gpt-6-luna', reply: { message: 'Пример', choices: [], artifactDraft: null, proposedFacts: [] } };
+afterEach(() => vi.unstubAllGlobals());
+it('bootstraps same-origin cookies, passes abort, preserves requestId and never retries ambiguous failures', async () => {
+  const fetcher = vi.fn().mockResolvedValueOnce(new Response(JSON.stringify(status))).mockResolvedValueOnce(new Response(JSON.stringify(status))).mockResolvedValueOnce(new Response(JSON.stringify(reply)));
+  vi.stubGlobal('fetch', fetcher);
+  expect(await getStatus()).toEqual(status);
+  const signal = new AbortController().signal;
+  expect(await sendChat(input, signal)).toEqual(reply);
+  expect(fetcher.mock.calls.at(-1)).toEqual(['/api/chat', expect.objectContaining({ method: 'POST', credentials: 'same-origin', signal, body: JSON.stringify(input) })]);
+  fetcher.mockResolvedValueOnce(new Response(JSON.stringify(status))).mockRejectedValueOnce(new TypeError('connection lost'));
+  await expect(sendChat(input)).rejects.toMatchObject({ code: 'NETWORK_ERROR', requestId: input.requestId, retryable: true });
+  expect(fetcher).toHaveBeenCalledTimes(5);
+  fetcher.mockResolvedValueOnce(new Response(JSON.stringify(status))).mockResolvedValueOnce(new Response(JSON.stringify({ error: { code: 'REQUEST_PENDING', message: 'Уже обрабатывается', retryable: true }, requestId: input.requestId }), { status: 409 }));
+  await expect(sendChat(input)).rejects.toMatchObject({ code: 'REQUEST_PENDING', requestId: input.requestId, retryable: true });
+});

@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "origin": "Co-founder/research/knowledge-2026-11-15",
+  "inputs": [
+    {
+      "name": "methods.jsonl",
+      "sha256": "b15f10e3b939154d4d76ecd98118f7dd44a07c16a808fae6478f03e26db6d596"
+    },
+    {
+      "name": "sources.json",
+      "sha256": "18a4c6ad6c67616ecddeb24197073937564ecf4c7aa652f65cd69d52fd0b5a7a"
+    },
+    {
+      "name": "06_mentor_protocol.md",
+      "sha256": "ffc1fdb8ada264169c6d71ed19b506e5a0b1d55b2aa5f7101b6e6e9170cd404a"
+    }
+  ],
+  "editorialRevisions": {
+    "name": "editorial-revisions.json",
+    "sha256": "b2c047cf911dc736e28b3433d97da96f4694117e3ed06e9ae23fbde8f568c359"
+  },
+  "runtimeSha256": "a8bb8f40b7da6c7a90341ac6268ab792fdd6e2ce335a24048a3ce8fee832c977",
+  "cardCount": 30,
+  "sourceCount": 13,
+  "methods": [
+    {
+      "id": "M01",
+      "version": "0.3.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M02",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M03",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M04",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M05",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M06",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M07",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M08",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M09",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M10",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M11",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M12",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M13",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M14",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M15",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M16",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M17",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M18",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M19",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M20",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M21",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M22",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M23",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M24",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M25",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M26",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M27",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M28",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M29",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    },
+    {
+      "id": "M30",
+      "version": "0.1.0",
+      "status": "editorial_draft_not_behaviorally_validated"
+    }
+  ],
+  "policy": "Only own editorial cards, permanent rules and source metadata. No original evidence, archive, OCR or client dialogue. Local source links omitted. Examples remain educational."
+}

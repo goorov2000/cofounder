@@ -1,0 +1,2207 @@
+[
+  {
+    "id": "K04",
+    "requestId": "49b31ee9-f625-42b3-acc2-e7c95ad18d8b",
+    "request": {
+      "contractVersion": 2,
+      "coreContext": {
+        "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+        "moduleId": "competitors",
+        "generation": 0,
+        "schemaVersion": 1,
+        "revision": 9,
+        "contextVersion": 19,
+        "currentEntryRefs": [
+          {
+            "id": "fc3837fe-2db2-40ee-9da9-de54c534fa9b",
+            "version": 1
+          },
+          {
+            "id": "556bf352-3efe-42ea-bd57-85285765afe6",
+            "version": 1
+          },
+          {
+            "id": "41cf1ff1-9964-47ed-a2c0-659d80205955",
+            "version": 1
+          },
+          {
+            "id": "d3b4bc06-6907-4052-8eea-af229adcd837",
+            "version": 1
+          },
+          {
+            "id": "46da3d35-d3dd-4d50-8c39-f015bfee80ae",
+            "version": 1
+          },
+          {
+            "id": "5caecaca-5654-42f3-bc0a-c74677b6a5e7",
+            "version": 1
+          },
+          {
+            "id": "50065121-aac1-4394-97b9-3f4f292f018a",
+            "version": 1
+          },
+          {
+            "id": "2ff9acbb-895b-4a3b-8dc6-30079bf44f8e",
+            "version": 1
+          },
+          {
+            "id": "9d06591d-8404-4758-8e89-4ffd06a56c82",
+            "version": 1
+          }
+        ],
+        "sourceMessage": {
+          "messageId": "07d7b45f-82cc-4c94-865f-f71e5ca1b7db",
+          "revision": 1
+        },
+        "entries": [
+          {
+            "kind": "decision",
+            "key": "idea",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "Сервис графиков смен для небольших ресторанов; сейчас пожелания в чатах и ручная таблица.",
+            "origin": "user",
+            "epistemic": "reported",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+                "moduleId": "idea",
+                "generation": 0,
+                "messageId": "09050762-a62b-4e83-a443-a22c8ec20379",
+                "revision": 1,
+                "quote": "Сервис графиков смен для небольших ресторанов; сейчас пожелания в чатах и ручная таблица."
+              }
+            ],
+            "dependsOn": [],
+            "id": "fc3837fe-2db2-40ee-9da9-de54c534fa9b",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:31:38.595Z",
+            "requestId": "88ab6fdf-4a4d-4e23-ad85-6910608335c0"
+          },
+          {
+            "kind": "decision",
+            "key": "geography",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "География проекта — вся Россия.",
+            "origin": "user",
+            "epistemic": "reported",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+                "moduleId": "audience",
+                "generation": 0,
+                "messageId": "84f5dbab-72be-49dd-92e1-57a26a7bc89e",
+                "revision": 1,
+                "quote": "География проекта — вся Россия."
+              }
+            ],
+            "dependsOn": [],
+            "id": "556bf352-3efe-42ea-bd57-85285765afe6",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:31:38.595Z",
+            "requestId": "a6aa7350-714a-41b6-8b12-0e0aab0d2249"
+          },
+          {
+            "kind": "decision",
+            "key": "revenue_model",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "Мы выбрали подписку.",
+            "origin": "user",
+            "epistemic": "reported",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+                "moduleId": "business",
+                "generation": 0,
+                "messageId": "8cba8033-f2e7-43f3-a2c0-9248e2991084",
+                "revision": 1,
+                "quote": "Мы выбрали подписку."
+              }
+            ],
+            "dependsOn": [],
+            "id": "41cf1ff1-9964-47ed-a2c0-659d80205955",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:31:38.596Z",
+            "requestId": "b98147a4-bdf0-4bb2-80e4-2116ce2d9c57"
+          },
+          {
+            "kind": "decision",
+            "key": "price",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "Принимаем придуманную гипотезу: наша цена 5000 рублей за точку в месяц.",
+            "origin": "user",
+            "epistemic": "hypothesis",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+                "moduleId": "business",
+                "generation": 0,
+                "messageId": "e9d9057f-8b77-4aad-ad89-a554ec70c693",
+                "revision": 1,
+                "quote": "Принимаем придуманную гипотезу: наша цена 5000 рублей за точку в месяц."
+              }
+            ],
+            "dependsOn": [],
+            "id": "d3b4bc06-6907-4052-8eea-af229adcd837",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:31:38.596Z",
+            "requestId": "93b37c07-212e-44ed-8dc1-c147f2ad8f45"
+          },
+          {
+            "kind": "decision",
+            "key": "team",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "Работаю один.",
+            "origin": "user",
+            "epistemic": "reported",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+                "moduleId": "idea",
+                "generation": 0,
+                "messageId": "c117a175-2eeb-4435-9c4d-c25a8733d096",
+                "revision": 1,
+                "quote": "Работаю один."
+              }
+            ],
+            "dependsOn": [],
+            "id": "46da3d35-d3dd-4d50-8c39-f015bfee80ae",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:31:38.599Z",
+            "requestId": "24f4c90e-7d29-4bbd-a15e-12dd641c80f1"
+          },
+          {
+            "kind": "decision",
+            "key": "channel",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "Для привлечения выбираю SEO и контент.",
+            "origin": "user",
+            "epistemic": "reported",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+                "moduleId": "roadmap",
+                "generation": 0,
+                "messageId": "8c3ba744-cbc2-4c52-b26b-81fa808be448",
+                "revision": 1,
+                "quote": "Для привлечения выбираю SEO и контент."
+              }
+            ],
+            "dependsOn": [],
+            "id": "5caecaca-5654-42f3-bc0a-c74677b6a5e7",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:31:38.606Z",
+            "requestId": "6752c799-f3a4-44d4-852b-1b0aeab06212"
+          },
+          {
+            "kind": "decision",
+            "key": "mvp_time",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "Ориентир для MVP — две недели, реализуемость ещё не проверена.",
+            "origin": "user",
+            "epistemic": "hypothesis",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+                "moduleId": "roadmap",
+                "generation": 0,
+                "messageId": "a169c93f-e4ed-4779-8242-106cc6a009a1",
+                "revision": 1,
+                "quote": "Ориентир для MVP — две недели, реализуемость ещё не проверена."
+              }
+            ],
+            "dependsOn": [],
+            "id": "50065121-aac1-4394-97b9-3f4f292f018a",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:31:38.607Z",
+            "requestId": "41118bc4-7667-418c-bcd7-5590da76e2ad"
+          },
+          {
+            "kind": "decision",
+            "key": "horizon",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "На ближайшие три месяца: отладить продукт, выпустить и начать первые продажи. Юрстатус уже есть.",
+            "origin": "user",
+            "epistemic": "reported",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+                "moduleId": "roadmap",
+                "generation": 0,
+                "messageId": "d0207222-9bdf-4632-a073-982ebce2db04",
+                "revision": 1,
+                "quote": "На ближайшие три месяца: отладить продукт, выпустить и начать первые продажи. Юрстатус уже есть."
+              }
+            ],
+            "dependsOn": [],
+            "id": "2ff9acbb-895b-4a3b-8dc6-30079bf44f8e",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:31:38.607Z",
+            "requestId": "eaf8d5fe-1840-4b1c-8cc1-28becabcd1d1"
+          },
+          {
+            "kind": "decision",
+            "key": "interviews",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "Интервью пока не проводились.",
+            "origin": "user",
+            "epistemic": "reported",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+                "moduleId": "audience",
+                "generation": 0,
+                "messageId": "dc163090-5fd1-45ef-a3df-b39c9ea31eaa",
+                "revision": 1,
+                "quote": "Интервью пока не проводились."
+              }
+            ],
+            "dependsOn": [],
+            "id": "9d06591d-8404-4758-8e89-4ffd06a56c82",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:31:38.608Z",
+            "requestId": "205152dc-7484-40e1-994c-81ef264d6206"
+          }
+        ],
+        "sourceMessages": [
+          {
+            "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+            "moduleId": "idea",
+            "generation": 0,
+            "messageId": "09050762-a62b-4e83-a443-a22c8ec20379",
+            "revision": 1,
+            "role": "user",
+            "content": "Сервис графиков смен для небольших ресторанов; сейчас пожелания в чатах и ручная таблица.",
+            "createdAt": "2026-11-15T12:31:38.593Z"
+          },
+          {
+            "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+            "moduleId": "audience",
+            "generation": 0,
+            "messageId": "84f5dbab-72be-49dd-92e1-57a26a7bc89e",
+            "revision": 1,
+            "role": "user",
+            "content": "География проекта — вся Россия.",
+            "createdAt": "2026-11-15T12:31:38.595Z"
+          },
+          {
+            "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+            "moduleId": "business",
+            "generation": 0,
+            "messageId": "8cba8033-f2e7-43f3-a2c0-9248e2991084",
+            "revision": 1,
+            "role": "user",
+            "content": "Мы выбрали подписку.",
+            "createdAt": "2026-11-15T12:31:38.595Z"
+          },
+          {
+            "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+            "moduleId": "business",
+            "generation": 0,
+            "messageId": "e9d9057f-8b77-4aad-ad89-a554ec70c693",
+            "revision": 1,
+            "role": "user",
+            "content": "Принимаем придуманную гипотезу: наша цена 5000 рублей за точку в месяц.",
+            "createdAt": "2026-11-15T12:31:38.596Z"
+          },
+          {
+            "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+            "moduleId": "idea",
+            "generation": 0,
+            "messageId": "c117a175-2eeb-4435-9c4d-c25a8733d096",
+            "revision": 1,
+            "role": "user",
+            "content": "Работаю один.",
+            "createdAt": "2026-11-15T12:31:38.596Z"
+          },
+          {
+            "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+            "moduleId": "roadmap",
+            "generation": 0,
+            "messageId": "8c3ba744-cbc2-4c52-b26b-81fa808be448",
+            "revision": 1,
+            "role": "user",
+            "content": "Для привлечения выбираю SEO и контент.",
+            "createdAt": "2026-11-15T12:31:38.599Z"
+          },
+          {
+            "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+            "moduleId": "roadmap",
+            "generation": 0,
+            "messageId": "a169c93f-e4ed-4779-8242-106cc6a009a1",
+            "revision": 1,
+            "role": "user",
+            "content": "Ориентир для MVP — две недели, реализуемость ещё не проверена.",
+            "createdAt": "2026-11-15T12:31:38.606Z"
+          },
+          {
+            "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+            "moduleId": "roadmap",
+            "generation": 0,
+            "messageId": "d0207222-9bdf-4632-a073-982ebce2db04",
+            "revision": 1,
+            "role": "user",
+            "content": "На ближайшие три месяца: отладить продукт, выпустить и начать первые продажи. Юрстатус уже есть.",
+            "createdAt": "2026-11-15T12:31:38.607Z"
+          },
+          {
+            "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+            "moduleId": "audience",
+            "generation": 0,
+            "messageId": "dc163090-5fd1-45ef-a3df-b39c9ea31eaa",
+            "revision": 1,
+            "role": "user",
+            "content": "Интервью пока не проводились.",
+            "createdAt": "2026-11-15T12:31:38.607Z"
+          },
+          {
+            "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+            "moduleId": "competitors",
+            "generation": 0,
+            "messageId": "07d7b45f-82cc-4c94-865f-f71e5ca1b7db",
+            "revision": 1,
+            "role": "user",
+            "content": "Конкурентов не знаю. Найди их сам и сравни актуальные тарифы, прочитай первичные страницы.",
+            "createdAt": "2026-11-15T12:31:38.608Z"
+          }
+        ],
+        "evidence": []
+      },
+      "requestId": "49b31ee9-f625-42b3-acc2-e7c95ad18d8b",
+      "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+      "moduleId": "competitors",
+      "intent": "message",
+      "message": "Конкурентов не знаю. Найди их сам и сравни актуальные тарифы, прочитай первичные страницы.",
+      "context": {
+        "name": "Acceptance K04",
+        "description": "Работаю один. Идея: простой сервис графиков смен для небольших ресторанов России. Сейчас пожелания собирают в чатах, график ведут вручную в таблице. Сотрудник видит текущую и следующую недели, предлагает выходной на следующую неделю и обмен сменами после публикации. Об обмене уведомляем заместителя и директора. Первый пилот — одно кафе в Самаре. Подписка, гипотеза цены 5000 рублей за точку в месяц. Интервью пока не проводил. Привлечение — SEO и контент. Ориентир MVP — две недели; на ближайшие три месяца — отладить продукт, выпустить и начать первые продажи. Юрстатус уже есть.",
+        "facts": [],
+        "artifacts": [
+          {
+            "moduleId": "idea",
+            "title": "Графики смен",
+            "body": "Работаю один. Идея: простой сервис графиков смен для небольших ресторанов России. Сейчас пожелания собирают в чатах, график ведут вручную в таблице. Сотрудник видит текущую и следующую недели, предлагает выходной на следующую неделю и обмен сменами после публикации. Об обмене уведомляем заместителя и директора. Первый пилот — одно кафе в Самаре. Подписка, гипотеза цены 5000 рублей за точку в месяц. Интервью пока не проводил. Привлечение — SEO и контент. Ориентир MVP — две недели; на ближайшие три месяца — отладить продукт, выпустить и начать первые продажи. Юрстатус уже есть.",
+            "stale": false
+          },
+          {
+            "moduleId": "audience",
+            "title": "Первый сегмент",
+            "body": "Независимые кафе с ручным графиком. Пользователь — управляющий и сотрудники; плательщик/утверждающий требует проверки. Пилот: одно кафе в Самаре.",
+            "stale": false
+          }
+        ],
+        "history": [],
+        "memories": []
+      }
+    },
+    "raw": {
+      "message": "Сравнение подготовил по прочитанным первичным страницам. Наиболее прямой найденный кандидат — «Сменчик»; по нему видна цена, но конкретные сценарии обмена смен и уведомлений нужно проверять отдельно. «Смена» — смежный ресторанный продукт, а не подтверждённый конкурент именно по графикам. Две страницы прочитать не удалось, поэтому их свойства и тарифы оставил неизвестными.",
+      "choices": [],
+      "artifactDraft": {
+        "title": "Предварительное сравнение альтернатив графику смен для небольшого ресторана",
+        "body": "## Альтернативы: найденные варианты\n\n- **Сменчик** — прямой кандидат: официальная страница посвящена графику смен и показывает тариф. Нужно отдельно проверить, покрывает ли сервис сценарии из проекта: просмотр текущей и следующей недель, запрос выходного, обмен после публикации и уведомления заместителя и директора.\n- **Quick Resto** — найдена официальная справка о графике работы. Прочитанные фрагменты не дают достаточного подтверждения нужного сценария; страницу тарифов прочитать не удалось.\n- **«Окей, сделал!» для YCLIENTS** — прочитана официальная страница тарифов, однако доступные фрагменты не подтверждают, что продукт решает задачу планирования смен. Некоторые суммы приведены без достаточного контекста для сопоставления.\n- **«Смена»** — смежное ресторанное приложение. Прочитанный тарифный фрагмент сообщает цену за локацию и способы оплаты, но не подтверждает поддержку графиков смен.\n- **Чат + таблица** — текущая ручная альтернатива по вводным проекта. Денежные и временные затраты, частота ошибок и нагрузка на руководителя неизвестны.\n\n## Критерии сравнения и таблица\n\nСравниваю по одной задаче: составить и поддерживать график смен, принимать пожелания и изменения, согласовывать обмен и уведомлять руководителей. Неупоминание функции на доступной странице не означает, что функции нет.\n\n| Альтернатива | Подтверждение релевантности задаче графика | Опубликованный тариф | Обмен и уведомления руководителей | Что остаётся проверить |\n|---|---|---|---|---|\n| Сменчик | Страница посвящена графику смен | 1 490 ₽ в месяц за всю компанию | В прочитанных фрагментах не подтверждены | Выходной на следующую неделю, обмен после публикации, согласование и адресаты уведомлений; лимиты и условия тарифа |\n| Quick Resto | Доступные фрагменты справки недостаточны для подтверждения нужного процесса | Неизвестен: страницу тарифов не удалось прочитать | Неизвестно | Полный сценарий планирования смен и тариф |\n| «Окей, сделал!» / YCLIENTS | По прочитанным тарифным фрагментам релевантность графикам смен не установлена | В видимых фрагментах есть «0 руб/мес» и «от 480 руб/мес», но контекста недостаточно для сравнения единиц, состава и условий | Неизвестно | Назначение продукта, состав тарифов, единица оплаты и функции |\n| «Смена» | Смежный продукт; поддержка графиков смен доступными фрагментами не подтверждена | Базовый тариф — 990 ₽ за локацию в месяц; ПРО — 2 990 ₽ за локацию в месяц | Не подтверждено для графиков смен | Есть ли нужный модуль и входит ли он в указанные тарифы |\n| Чат + таблица | Подтверждённая текущая альтернатива по вводным проекта | Денежная стоимость неизвестна | Изменения можно передавать вручную; фактический процесс не изучен | Время на сбор пожеланий и обновление графика, ошибки, задержки и нагрузка руководителя |\n\n## Тарифы и условия оплаты\n\n- **Сменчик:** 1 490 ₽ в месяц за всю компанию. Дополнительные условия оплаты, лимиты и состав тарифа в доступной цитате не указаны.\n- **«Смена»:** базовый тариф — 990 ₽ за локацию в месяц, ПРО — 2 990 ₽ за локацию в месяц. На странице также указано: «Платите за локации, а не за людей: лимита на сотрудников нет. Оплатить можно картой или по счёту». Условия предоплаты, периодичность списания и налоги в этом фрагменте не уточнены.\n- **«Окей, сделал!» / YCLIENTS:** видимые фрагменты тарифной страницы содержат «0 руб/мес» и «от 480 руб/мес», но не дают достаточного контекста, чтобы надёжно установить единицу тарификации, состав предложения и условия оплаты. Не использую эти числа как сопоставимый тариф.\n- **Quick Resto и soft-smena.com:** тарифы неизвестны — страницы не удалось прочитать.\n\nЭто публичные предложения, а не фактические платежи клиентов и не средний чек. Цена проекта 5 000 рублей за точку в месяц — принятая гипотеза, а не подтверждённый рыночный ориентир.\n\n## Известные сведения и источники: даты и ограничения\n\nСтраницы получены 15.11.2026; даты публикации или вступления тарифов в силу не указаны.\n\n- [Сменчик — главная страница](https://smenchik.ru/) — страница о графике смен; в прочитанном фрагменте указано «1490 ₽ в месяц за всю компанию». Проверено 15.11.2026; дата публикации не указана.\n- [«Смена» — страница приложения](https://smena.cafe/) — прочитанный тарифный фрагмент указывает базовую цену, тариф ПРО, тарификацию по локациям и оплату картой или по счёту. Проверено 15.11.2026; страница не подтверждает поддержку графиков смен.\n- [«Окей, сделал!» — тарифы для YCLIENTS](https://oksdelal.ru/pricing/) — тарифная страница прочитана, но доступные фрагменты не позволяют надёжно сопоставить все суммы с единицей и функциями. Проверено 15.11.2026.\n- [Quick Resto — справка о графике работы](https://quickresto.ru/support/rabota_s_bek_offisom/personal/grafik_raboty/) — прочитана частично; доступные фрагменты недостаточны для подтверждения нужного сценария. Проверено 15.11.2026.\n- [Quick Resto — цены](https://quickresto.ru/price/) — страницу не удалось прочитать; тариф неизвестен.\n- [soft-smena.com](https://soft-smena.com/) — страницу не удалось прочитать; продукт и тарифы не подтверждены.\n\n## Непроверенные допущения и гипотеза отличия\n\n**Гипотеза, не установленное преимущество:** небольшому кафе может быть полезно согласование обмена смен после публикации с уведомлением заместителя и директора, чтобы не разбирать изменения по разрозненным чатам. Не проверено, насколько это важно управляющим и насколько уже доступно у альтернатив.\n\n## Ближайшее действие\n\nПроверить «Сменчик» на одном и том же тестовом сценарии: опубликовать график, запросить выходной на следующую неделю, предложить обмен после публикации и зафиксировать, кто получает уведомление и кто подтверждает обмен. Записать полный тариф, лимиты и условия оплаты. Затем спросить управляющего кафе о последнем реальном изменении графика: кто запросил изменение, кто согласовал и сколько времени заняло обновление графика. Это позволит проверить и альтернативу, и значимость гипотезы отличия."
+      },
+      "proposedFacts": [],
+      "memoryOperations": [],
+      "externalClaims": [
+        {
+          "text": "На странице Сменчика указано: 1490 ₽ в месяц за всю компанию.",
+          "evidenceId": "web-3d8aa1f7eab44bbb78658f7a",
+          "version": 1,
+          "quoteId": "quote-1",
+          "price": {
+            "amount": "1490",
+            "currency": "₽",
+            "unit": "за всю компанию",
+            "period": "в месяц",
+            "paymentTerms": "unknown"
+          }
+        },
+        {
+          "text": "На странице «Смены» указаны базовый тариф 990 ₽ за локацию в месяц и тариф ПРО 2 990 ₽ за локацию в месяц; оплата возможна картой или по счёту.",
+          "evidenceId": "web-17d2029cba999c15aea144df",
+          "version": 1,
+          "quoteId": "quote-5",
+          "price": {
+            "amount": "990 ₽; ПРО — 2 990 ₽",
+            "currency": "₽",
+            "unit": "за локацию",
+            "period": "в месяц",
+            "paymentTerms": "Оплатить можно картой или по счёту."
+          }
+        },
+        {
+          "text": "На странице «Окей, сделал!» есть предложение «от 480 руб/мес»; доступная цитата не указывает единицу тарификации и условия оплаты.",
+          "evidenceId": "web-bc550ce4d6fff0a6c5c974f0",
+          "version": 1,
+          "quoteId": "quote-2",
+          "price": {
+            "amount": "от 480",
+            "currency": "руб",
+            "unit": "unknown",
+            "period": "мес",
+            "paymentTerms": "unknown"
+          }
+        },
+        {
+          "text": "На странице «Окей, сделал!» указано «0 руб/мес»; доступная цитата не устанавливает единицу тарификации и условия оплаты.",
+          "evidenceId": "web-bc550ce4d6fff0a6c5c974f0",
+          "version": 1,
+          "quoteId": "quote-1",
+          "price": {
+            "amount": "0",
+            "currency": "руб",
+            "unit": "unknown",
+            "period": "мес",
+            "paymentTerms": "unknown"
+          }
+        }
+      ],
+      "memory": {
+        "facts": [
+          {
+            "text": "Сервис графиков смен для небольших ресторанов; сейчас пожелания в чатах и ручная таблица.",
+            "evidence": "Сервис графиков смен для небольших ресторанов; сейчас пожелания в чатах и ручная таблица."
+          },
+          {
+            "text": "География проекта — вся Россия.",
+            "evidence": "География проекта — вся Россия."
+          },
+          {
+            "text": "Принята гипотеза цены 5000 рублей за точку в месяц.",
+            "evidence": "Принимаем придуманную гипотезу: наша цена 5000 рублей за точку в месяц."
+          },
+          {
+            "text": "Интервью пока не проводились.",
+            "evidence": "Интервью пока не проводились."
+          }
+        ],
+        "hypotheses": [
+          "Возможное отличие — обмен смен после публикации с уведомлением заместителя и директора; важность и отличие от альтернатив не проверены."
+        ],
+        "openQuestions": [
+          "Какие альтернативы поддерживают запрос выходного, обмен после публикации и уведомления руководителей?"
+        ]
+      }
+    },
+    "evidence": [
+      {
+        "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+        "moduleId": "competitors",
+        "generation": 0,
+        "id": "web-c76ae56346a3acceb78ca2b4",
+        "version": 1,
+        "requestId": "49b31ee9-f625-42b3-acc2-e7c95ad18d8b",
+        "operationId": "read-1",
+        "url": "https://quickresto.ru/support/rabota_s_bek_ofisom/personal/grafik_raboty/",
+        "title": "График работы — Quick Resto",
+        "retrievedAt": "2026-11-15T12:31:50.150Z",
+        "publishedAt": null,
+        "effectiveAt": null,
+        "retrieval": "read",
+        "contentHash": "e5c64e77a107439991ec5f76876e6c899922ad5bab60df74c49dc25d111a24ba",
+        "quotes": [
+          {
+            "id": "quote-1",
+            "text": "Выбор по меню, оплата, доставка, самовывоз",
+            "start": 394,
+            "end": 436
+          },
+          {
+            "id": "quote-2",
+            "text": "Схема зала, заказы, бонусы в CRM, чеки, 3 типа оплат",
+            "start": 784,
+            "end": 836
+          },
+          {
+            "id": "quote-3",
+            "text": "Где посмотреть, какие типы оплат использовались при оплате чека или за кассовую смену?",
+            "start": 3596,
+            "end": 3682
+          },
+          {
+            "id": "quote-4",
+            "text": "Настройка онлайн-оплаты для продуктов Бустера",
+            "start": 5080,
+            "end": 5125
+          },
+          {
+            "id": "quote-5",
+            "text": "Настройка онлайн-оплаты для продуктов лояльности",
+            "start": 5575,
+            "end": 5623
+          }
+        ],
+        "limitations": [
+          "Страница ограничена первыми 12000 символами; часть условий может отсутствовать.",
+          "Дата публикации не указана."
+        ]
+      },
+      {
+        "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+        "moduleId": "competitors",
+        "generation": 0,
+        "id": "unread-14afbbf537a53e9c8495cb60",
+        "version": 1,
+        "requestId": "49b31ee9-f625-42b3-acc2-e7c95ad18d8b",
+        "operationId": "read-2",
+        "url": "https://quickresto.ru/price/",
+        "title": "quickresto.ru",
+        "retrievedAt": "2026-11-15T12:31:50.369Z",
+        "publishedAt": null,
+        "effectiveAt": null,
+        "retrieval": "unavailable",
+        "contentHash": "unavailable",
+        "quotes": [],
+        "limitations": [
+          "Страница найдена, но прочитать её не удалось. Сведения и тарифы не подтверждены."
+        ]
+      },
+      {
+        "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+        "moduleId": "competitors",
+        "generation": 0,
+        "id": "web-3d8aa1f7eab44bbb78658f7a",
+        "version": 1,
+        "requestId": "49b31ee9-f625-42b3-acc2-e7c95ad18d8b",
+        "operationId": "read-3",
+        "url": "https://smenchik.ru/",
+        "title": "График смен, учёт рабочего времени и расчёт зарплаты — Сменчик",
+        "retrievedAt": "2026-11-15T12:31:50.669Z",
+        "publishedAt": null,
+        "effectiveAt": null,
+        "retrieval": "read",
+        "contentHash": "67d7ea3aae155c18426acb99806ee7a89fb6da60bd4bb2b557c122e89aaf9f84",
+        "quotes": [
+          {
+            "id": "quote-1",
+            "text": "1490 ₽ в месяц за всю компанию",
+            "start": 526,
+            "end": 556
+          },
+          {
+            "id": "quote-2",
+            "text": "Нажмите на клетку или имя — расчёт обновится. Пример: ставка 400 ₽/ч, ночные +20%.",
+            "start": 641,
+            "end": 723
+          },
+          {
+            "id": "quote-3",
+            "text": "Ставка − 400 ₽/ч +",
+            "start": 1703,
+            "end": 1721
+          },
+          {
+            "id": "quote-4",
+            "text": "Доплата за ночь 320 ₽",
+            "start": 2387,
+            "end": 2408
+          },
+          {
+            "id": "quote-5",
+            "text": "За смену 3 520 ₽",
+            "start": 2410,
+            "end": 2426
+          }
+        ],
+        "limitations": [
+          "Дата публикации не указана."
+        ]
+      },
+      {
+        "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+        "moduleId": "competitors",
+        "generation": 0,
+        "id": "web-bc550ce4d6fff0a6c5c974f0",
+        "version": 1,
+        "requestId": "49b31ee9-f625-42b3-acc2-e7c95ad18d8b",
+        "operationId": "read-4",
+        "url": "https://oksdelal.ru/pricing/",
+        "title": "Цены — Окей, сделал! | Тарифы для YCLIENTS",
+        "retrievedAt": "2026-11-15T12:31:50.882Z",
+        "publishedAt": null,
+        "effectiveAt": null,
+        "retrieval": "read",
+        "contentHash": "1a634711076ee7d5de476ddcf041223b9eff7c4b765ed000195e2058cc5064be",
+        "quotes": [
+          {
+            "id": "quote-1",
+            "text": "0 руб/мес",
+            "start": 1237,
+            "end": 1246
+          },
+          {
+            "id": "quote-2",
+            "text": "от 480 руб/мес",
+            "start": 1450,
+            "end": 1464
+          },
+          {
+            "id": "quote-3",
+            "text": "Получите постоянную скидку за отзыв — она навсегда уменьшит для филиала стоимость тарифа на 200 рублей в месяц.",
+            "start": 1466,
+            "end": 1577
+          },
+          {
+            "id": "quote-4",
+            "text": "600₽",
+            "start": 1596,
+            "end": 1600
+          },
+          {
+            "id": "quote-5",
+            "text": "700₽",
+            "start": 1648,
+            "end": 1652
+          }
+        ],
+        "limitations": [
+          "Дата публикации не указана."
+        ]
+      },
+      {
+        "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+        "moduleId": "competitors",
+        "generation": 0,
+        "id": "web-17d2029cba999c15aea144df",
+        "version": 1,
+        "requestId": "49b31ee9-f625-42b3-acc2-e7c95ad18d8b",
+        "operationId": "read-5",
+        "url": "https://smena.cafe/",
+        "title": "Приложение «Смена»: чек-листы, обучение и отзывы для ресторана",
+        "retrievedAt": "2026-11-15T12:31:51.234Z",
+        "publishedAt": null,
+        "effectiveAt": null,
+        "retrieval": "read",
+        "contentHash": "ff90fef153476d269d60e686762cc3cd65cbadf1b2fce98bee47323aa1108391",
+        "quotes": [
+          {
+            "id": "quote-1",
+            "text": "От 990 ₽ за локацию в месяц.",
+            "start": 499,
+            "end": 527
+          },
+          {
+            "id": "quote-2",
+            "text": "Оплата за локацию, не за людей.",
+            "start": 2469,
+            "end": 2500
+          },
+          {
+            "id": "quote-3",
+            "text": "990 ₽ за локацию в месяц",
+            "start": 2661,
+            "end": 2685
+          },
+          {
+            "id": "quote-4",
+            "text": "2 990 ₽ за локацию в месяц",
+            "start": 3075,
+            "end": 3101
+          },
+          {
+            "id": "quote-5",
+            "text": "Сколько стоит «Смена» для кафе или сети? Базовый тариф — 990 ₽ за локацию в месяц, ПРО — 2 990 ₽. Платите за локации, а не за людей: лимита на сотрудников нет. Оплатить можно картой или по счёту.",
+            "start": 4683,
+            "end": 4878
+          }
+        ],
+        "limitations": [
+          "Дата публикации не указана."
+        ]
+      },
+      {
+        "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+        "moduleId": "competitors",
+        "generation": 0,
+        "id": "unread-029e5b53696ee7bd8a194a73",
+        "version": 1,
+        "requestId": "49b31ee9-f625-42b3-acc2-e7c95ad18d8b",
+        "operationId": "read-6",
+        "url": "https://soft-smena.com/",
+        "title": "soft-smena.com",
+        "retrievedAt": "2026-11-15T12:32:01.248Z",
+        "publishedAt": null,
+        "effectiveAt": null,
+        "retrieval": "unavailable",
+        "contentHash": "unavailable",
+        "quotes": [],
+        "limitations": [
+          "Страница найдена, но прочитать её не удалось. Сведения и тарифы не подтверждены."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "C03-own-price",
+    "requestId": "abef394f-bbf9-4148-81b9-dc9eea16af7d",
+    "request": {
+      "contractVersion": 2,
+      "coreContext": {
+        "projectId": "33738bf3-9216-4891-97e7-e3f4728badc7",
+        "moduleId": "business",
+        "generation": 0,
+        "schemaVersion": 1,
+        "revision": 9,
+        "contextVersion": 19,
+        "currentEntryRefs": [
+          {
+            "id": "72028585-f1d0-49c6-bf34-9695052527c6",
+            "version": 1
+          },
+          {
+            "id": "a9e62d1e-9081-4e69-aaa7-480daaff72dd",
+            "version": 1
+          },
+          {
+            "id": "8c3165ec-d959-495b-a530-3c13e7ea5238",
+            "version": 1
+          },
+          {
+            "id": "ae67fda7-f733-47c1-9c3d-a08230bb2abe",
+            "version": 1
+          },
+          {
+            "id": "8c6829ab-2bdb-4f57-b575-6ec78c0a1521",
+            "version": 1
+          },
+          {
+            "id": "cd93d814-abab-4964-80a3-7f5e5744279a",
+            "version": 1
+          },
+          {
+            "id": "44cd6217-e6ac-4323-a77e-4e93c3a0598d",
+            "version": 1
+          },
+          {
+            "id": "dc7517af-1af1-4b5f-bb24-e5d57ebbb2ae",
+            "version": 1
+          },
+          {
+            "id": "29f83e96-a8a9-482d-b384-1abebefbca5d",
+            "version": 1
+          }
+        ],
+        "sourceMessage": {
+          "messageId": "c4ae6898-c127-45c1-8d0f-6e9f91dfff7e",
+          "revision": 1
+        },
+        "entries": [
+          {
+            "kind": "decision",
+            "key": "idea",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "Сервис графиков смен для небольших ресторанов; сейчас пожелания в чатах и ручная таблица.",
+            "origin": "user",
+            "epistemic": "reported",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "33738bf3-9216-4891-97e7-e3f4728badc7",
+                "moduleId": "idea",
+                "generation": 0,
+                "messageId": "c48340c9-0956-415f-a76e-3dae7d5c726b",
+                "revision": 1,
+                "quote": "Сервис графиков смен для небольших ресторанов; сейчас пожелания в чатах и ручная таблица."
+              }
+            ],
+            "dependsOn": [],
+            "id": "72028585-f1d0-49c6-bf34-9695052527c6",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:37:16.216Z",
+            "requestId": "45385555-000d-4b88-82e4-de0874333cf4"
+          },
+          {
+            "kind": "decision",
+            "key": "geography",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "География проекта — вся Россия.",
+            "origin": "user",
+            "epistemic": "reported",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "33738bf3-9216-4891-97e7-e3f4728badc7",
+                "moduleId": "audience",
+                "generation": 0,
+                "messageId": "164387f5-90d1-4929-8d58-f71e3e1b3866",
+                "revision": 1,
+                "quote": "География проекта — вся Россия."
+              }
+            ],
+            "dependsOn": [],
+            "id": "a9e62d1e-9081-4e69-aaa7-480daaff72dd",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:37:16.216Z",
+            "requestId": "c2b8eb13-7051-4c08-9b56-96255b6fb2c6"
+          },
+          {
+            "kind": "decision",
+            "key": "revenue_model",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "Мы выбрали подписку.",
+            "origin": "user",
+            "epistemic": "reported",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "33738bf3-9216-4891-97e7-e3f4728badc7",
+                "moduleId": "business",
+                "generation": 0,
+                "messageId": "c90f1932-ba33-4a15-b775-f2543ae59e24",
+                "revision": 1,
+                "quote": "Мы выбрали подписку."
+              }
+            ],
+            "dependsOn": [],
+            "id": "8c3165ec-d959-495b-a530-3c13e7ea5238",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:37:16.216Z",
+            "requestId": "9fc0f863-d546-4c83-bb68-a25efbdebf10"
+          },
+          {
+            "kind": "decision",
+            "key": "price",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "Принимаем придуманную гипотезу: наша цена 5000 рублей за точку в месяц.",
+            "origin": "user",
+            "epistemic": "hypothesis",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "33738bf3-9216-4891-97e7-e3f4728badc7",
+                "moduleId": "business",
+                "generation": 0,
+                "messageId": "840b18bb-15b3-4f3b-8230-f1b22a87df58",
+                "revision": 1,
+                "quote": "Принимаем придуманную гипотезу: наша цена 5000 рублей за точку в месяц."
+              }
+            ],
+            "dependsOn": [],
+            "id": "ae67fda7-f733-47c1-9c3d-a08230bb2abe",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:37:16.217Z",
+            "requestId": "1d249408-a775-4d9e-a2d0-d2c5ddb81a66"
+          },
+          {
+            "kind": "decision",
+            "key": "team",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "Работаю один.",
+            "origin": "user",
+            "epistemic": "reported",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "33738bf3-9216-4891-97e7-e3f4728badc7",
+                "moduleId": "idea",
+                "generation": 0,
+                "messageId": "40ff2dc8-200c-474d-ac36-e1645e22f319",
+                "revision": 1,
+                "quote": "Работаю один."
+              }
+            ],
+            "dependsOn": [],
+            "id": "8c6829ab-2bdb-4f57-b575-6ec78c0a1521",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:37:16.217Z",
+            "requestId": "b7a1860b-1868-4b8a-8157-b9f699a2a3e4"
+          },
+          {
+            "kind": "decision",
+            "key": "channel",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "Для привлечения выбираю SEO и контент.",
+            "origin": "user",
+            "epistemic": "reported",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "33738bf3-9216-4891-97e7-e3f4728badc7",
+                "moduleId": "roadmap",
+                "generation": 0,
+                "messageId": "55cab4b0-ec81-43ed-ac30-ba1e1721126c",
+                "revision": 1,
+                "quote": "Для привлечения выбираю SEO и контент."
+              }
+            ],
+            "dependsOn": [],
+            "id": "cd93d814-abab-4964-80a3-7f5e5744279a",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:37:16.217Z",
+            "requestId": "2611f48f-bbb0-45de-baa9-63e61424e296"
+          },
+          {
+            "kind": "decision",
+            "key": "mvp_time",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "Ориентир для MVP — две недели, реализуемость ещё не проверена.",
+            "origin": "user",
+            "epistemic": "hypothesis",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "33738bf3-9216-4891-97e7-e3f4728badc7",
+                "moduleId": "roadmap",
+                "generation": 0,
+                "messageId": "26c9c30f-590b-4e5f-9ee3-d9543f8fdc4f",
+                "revision": 1,
+                "quote": "Ориентир для MVP — две недели, реализуемость ещё не проверена."
+              }
+            ],
+            "dependsOn": [],
+            "id": "44cd6217-e6ac-4323-a77e-4e93c3a0598d",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:37:16.218Z",
+            "requestId": "a86c029f-c480-4bde-acd7-534c5c4ee0b0"
+          },
+          {
+            "kind": "decision",
+            "key": "horizon",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "На ближайшие три месяца: отладить продукт, выпустить и начать первые продажи. Юрстатус уже есть.",
+            "origin": "user",
+            "epistemic": "reported",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "33738bf3-9216-4891-97e7-e3f4728badc7",
+                "moduleId": "roadmap",
+                "generation": 0,
+                "messageId": "6b4515b7-7814-4fc3-82fd-374a185c8de6",
+                "revision": 1,
+                "quote": "На ближайшие три месяца: отладить продукт, выпустить и начать первые продажи. Юрстатус уже есть."
+              }
+            ],
+            "dependsOn": [],
+            "id": "dc7517af-1af1-4b5f-bb24-e5d57ebbb2ae",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:37:16.220Z",
+            "requestId": "385b26f4-23ca-4905-8130-c8180438ed2c"
+          },
+          {
+            "kind": "decision",
+            "key": "interviews",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "Интервью пока не проводились.",
+            "origin": "user",
+            "epistemic": "reported",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "33738bf3-9216-4891-97e7-e3f4728badc7",
+                "moduleId": "audience",
+                "generation": 0,
+                "messageId": "840d5fbf-27bb-4c7a-b94c-1e3d3c7c9e7a",
+                "revision": 1,
+                "quote": "Интервью пока не проводились."
+              }
+            ],
+            "dependsOn": [],
+            "id": "29f83e96-a8a9-482d-b384-1abebefbca5d",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:37:16.221Z",
+            "requestId": "7d63d8f4-3a0f-46c4-a784-fc11db8e2d28"
+          }
+        ],
+        "sourceMessages": [
+          {
+            "projectId": "33738bf3-9216-4891-97e7-e3f4728badc7",
+            "moduleId": "idea",
+            "generation": 0,
+            "messageId": "c48340c9-0956-415f-a76e-3dae7d5c726b",
+            "revision": 1,
+            "role": "user",
+            "content": "Сервис графиков смен для небольших ресторанов; сейчас пожелания в чатах и ручная таблица.",
+            "createdAt": "2026-11-15T12:37:16.215Z"
+          },
+          {
+            "projectId": "33738bf3-9216-4891-97e7-e3f4728badc7",
+            "moduleId": "audience",
+            "generation": 0,
+            "messageId": "164387f5-90d1-4929-8d58-f71e3e1b3866",
+            "revision": 1,
+            "role": "user",
+            "content": "География проекта — вся Россия.",
+            "createdAt": "2026-11-15T12:37:16.216Z"
+          },
+          {
+            "projectId": "33738bf3-9216-4891-97e7-e3f4728badc7",
+            "moduleId": "business",
+            "generation": 0,
+            "messageId": "c90f1932-ba33-4a15-b775-f2543ae59e24",
+            "revision": 1,
+            "role": "user",
+            "content": "Мы выбрали подписку.",
+            "createdAt": "2026-11-15T12:37:16.216Z"
+          },
+          {
+            "projectId": "33738bf3-9216-4891-97e7-e3f4728badc7",
+            "moduleId": "business",
+            "generation": 0,
+            "messageId": "840b18bb-15b3-4f3b-8230-f1b22a87df58",
+            "revision": 1,
+            "role": "user",
+            "content": "Принимаем придуманную гипотезу: наша цена 5000 рублей за точку в месяц.",
+            "createdAt": "2026-11-15T12:37:16.216Z"
+          },
+          {
+            "projectId": "33738bf3-9216-4891-97e7-e3f4728badc7",
+            "moduleId": "idea",
+            "generation": 0,
+            "messageId": "40ff2dc8-200c-474d-ac36-e1645e22f319",
+            "revision": 1,
+            "role": "user",
+            "content": "Работаю один.",
+            "createdAt": "2026-11-15T12:37:16.217Z"
+          },
+          {
+            "projectId": "33738bf3-9216-4891-97e7-e3f4728badc7",
+            "moduleId": "roadmap",
+            "generation": 0,
+            "messageId": "55cab4b0-ec81-43ed-ac30-ba1e1721126c",
+            "revision": 1,
+            "role": "user",
+            "content": "Для привлечения выбираю SEO и контент.",
+            "createdAt": "2026-11-15T12:37:16.217Z"
+          },
+          {
+            "projectId": "33738bf3-9216-4891-97e7-e3f4728badc7",
+            "moduleId": "roadmap",
+            "generation": 0,
+            "messageId": "26c9c30f-590b-4e5f-9ee3-d9543f8fdc4f",
+            "revision": 1,
+            "role": "user",
+            "content": "Ориентир для MVP — две недели, реализуемость ещё не проверена.",
+            "createdAt": "2026-11-15T12:37:16.218Z"
+          },
+          {
+            "projectId": "33738bf3-9216-4891-97e7-e3f4728badc7",
+            "moduleId": "roadmap",
+            "generation": 0,
+            "messageId": "6b4515b7-7814-4fc3-82fd-374a185c8de6",
+            "revision": 1,
+            "role": "user",
+            "content": "На ближайшие три месяца: отладить продукт, выпустить и начать первые продажи. Юрстатус уже есть.",
+            "createdAt": "2026-11-15T12:37:16.219Z"
+          },
+          {
+            "projectId": "33738bf3-9216-4891-97e7-e3f4728badc7",
+            "moduleId": "audience",
+            "generation": 0,
+            "messageId": "840d5fbf-27bb-4c7a-b94c-1e3d3c7c9e7a",
+            "revision": 1,
+            "role": "user",
+            "content": "Интервью пока не проводились.",
+            "createdAt": "2026-11-15T12:37:16.220Z"
+          },
+          {
+            "projectId": "33738bf3-9216-4891-97e7-e3f4728badc7",
+            "moduleId": "business",
+            "generation": 0,
+            "messageId": "c4ae6898-c127-45c1-8d0f-6e9f91dfff7e",
+            "revision": 1,
+            "role": "user",
+            "content": "в прошлом обсуждении мы приняли что у конкурентов средний чек 5к",
+            "createdAt": "2026-11-15T12:37:16.221Z"
+          }
+        ],
+        "evidence": []
+      },
+      "requestId": "abef394f-bbf9-4148-81b9-dc9eea16af7d",
+      "projectId": "33738bf3-9216-4891-97e7-e3f4728badc7",
+      "moduleId": "business",
+      "intent": "message",
+      "message": "в прошлом обсуждении мы приняли что у конкурентов средний чек 5к",
+      "context": {
+        "name": "Acceptance K06",
+        "description": "Работаю один. Идея: простой сервис графиков смен для небольших ресторанов России. Сейчас пожелания собирают в чатах, график ведут вручную в таблице. Сотрудник видит текущую и следующую недели, предлагает выходной на следующую неделю и обмен сменами после публикации. Об обмене уведомляем заместителя и директора. Первый пилот — одно кафе в Самаре. Подписка, гипотеза цены 5000 рублей за точку в месяц. Интервью пока не проводил. Привлечение — SEO и контент. Ориентир MVP — две недели; на ближайшие три месяца — отладить продукт, выпустить и начать первые продажи. Юрстатус уже есть.",
+        "facts": [],
+        "artifacts": [
+          {
+            "moduleId": "idea",
+            "title": "Графики смен",
+            "body": "Работаю один. Идея: простой сервис графиков смен для небольших ресторанов России. Сейчас пожелания собирают в чатах, график ведут вручную в таблице. Сотрудник видит текущую и следующую недели, предлагает выходной на следующую неделю и обмен сменами после публикации. Об обмене уведомляем заместителя и директора. Первый пилот — одно кафе в Самаре. Подписка, гипотеза цены 5000 рублей за точку в месяц. Интервью пока не проводил. Привлечение — SEO и контент. Ориентир MVP — две недели; на ближайшие три месяца — отладить продукт, выпустить и начать первые продажи. Юрстатус уже есть.",
+            "stale": false
+          },
+          {
+            "moduleId": "audience",
+            "title": "Первый сегмент",
+            "body": "Независимые кафе с ручным графиком. Пользователь — управляющий и сотрудники; плательщик/утверждающий требует проверки. Пилот: одно кафе в Самаре.",
+            "stale": false
+          },
+          {
+            "moduleId": "competitors",
+            "title": "Сохранённые альтернативы",
+            "body": "Ручная таблица и чат — существующий способ. Тарифы программных альтернатив пока неизвестны; их нужно исследовать.",
+            "stale": false
+          }
+        ],
+        "history": [
+          {
+            "role": "user",
+            "content": "Мы выбрали подписку."
+          },
+          {
+            "role": "user",
+            "content": "Принимаем придуманную гипотезу: наша цена 5000 рублей за точку в месяц."
+          }
+        ],
+        "memories": []
+      }
+    },
+    "raw": {
+      "message": "Понял: 5к — сообщённая вами оценка среднего чека конкурентов, а не цена вашего сервиса. Сохраняю это различие: в текущих записях проекта такой вывод раньше не зафиксирован, а валюта, единица расчёта, период и состав конкурентов не уточнены. Отдельная гипотеза вашей цены — 5000 рублей за точку в месяц — остаётся без изменений. Веб-поиск в этом ходе не выполнялся, поэтому конкурентный средний чек пока не подтверждён.",
+      "choices": [],
+      "artifactDraft": null,
+      "proposedFacts": [
+        {
+          "key": "competitor_average_check",
+          "value": "По сообщению пользователя, в прошлом обсуждении приняли оценку среднего чека конкурентов «5к»; валюта, единица, период и состав конкурентов здесь не уточнены.",
+          "provenance": "user",
+          "note": "Это сообщение о прежнем принятом допущении, а не проверенный тариф рынка. Не смешивать с отдельной гипотезой цены нашего сервиса.",
+          "sourceUrl": null,
+          "checkedAt": null
+        }
+      ],
+      "memoryOperations": [
+        {
+          "op": "create",
+          "localId": "competitor-average-check-reported",
+          "value": {
+            "kind": "decision",
+            "key": "competitor_average_check",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "stage",
+              "stageId": "business",
+              "scenario": null
+            },
+            "text": "По сообщению пользователя, в прошлом обсуждении приняли оценку среднего чека конкурентов «5к»; валюта, единица расчёта, период и состав конкурентов в текущем сообщении не уточнены.",
+            "origin": "user",
+            "epistemic": "reported",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "33738bf3-9216-4891-97e7-e3f4728badc7",
+                "moduleId": "business",
+                "generation": 0,
+                "messageId": "c4ae6898-c127-45c1-8d0f-6e9f91dfff7e",
+                "revision": 1,
+                "quote": "в прошлом обсуждении мы приняли что у конкурентов средний чек 5к"
+              }
+            ],
+            "dependsOn": []
+          }
+        }
+      ],
+      "externalClaims": [],
+      "memory": {
+        "facts": [
+          {
+            "text": "Идея — сервис графиков смен для небольших ресторанов; сейчас пожелания собирают в чатах, график ведут вручную.",
+            "evidence": "Сервис графиков смен для небольших ресторанов; сейчас пожелания в чатах и ручная таблица."
+          },
+          {
+            "text": "Выбрана модель подписки.",
+            "evidence": "Мы выбрали подписку."
+          },
+          {
+            "text": "Цена сервиса принята как гипотеза: 5000 рублей за точку в месяц.",
+            "evidence": "Принимаем придуманную гипотезу: наша цена 5000 рублей за точку в месяц."
+          },
+          {
+            "text": "Пользователь сообщает о принятой ранее оценке среднего чека конкурентов «5к»; условия и основания здесь не уточнены.",
+            "evidence": "в прошлом обсуждении мы приняли что у конкурентов средний чек 5к"
+          }
+        ],
+        "hypotheses": [],
+        "openQuestions": [
+          "Какие конкуренты, валюта, единица и период стоят за оценкой «5к»?"
+        ]
+      }
+    },
+    "evidence": []
+  },
+  {
+    "id": "K04-first-generation",
+    "requestId": "49b31ee9-f625-42b3-acc2-e7c95ad18d8b",
+    "request": {
+      "contractVersion": 2,
+      "coreContext": {
+        "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+        "moduleId": "competitors",
+        "generation": 0,
+        "schemaVersion": 1,
+        "revision": 9,
+        "contextVersion": 19,
+        "currentEntryRefs": [
+          {
+            "id": "fc3837fe-2db2-40ee-9da9-de54c534fa9b",
+            "version": 1
+          },
+          {
+            "id": "556bf352-3efe-42ea-bd57-85285765afe6",
+            "version": 1
+          },
+          {
+            "id": "41cf1ff1-9964-47ed-a2c0-659d80205955",
+            "version": 1
+          },
+          {
+            "id": "d3b4bc06-6907-4052-8eea-af229adcd837",
+            "version": 1
+          },
+          {
+            "id": "46da3d35-d3dd-4d50-8c39-f015bfee80ae",
+            "version": 1
+          },
+          {
+            "id": "5caecaca-5654-42f3-bc0a-c74677b6a5e7",
+            "version": 1
+          },
+          {
+            "id": "50065121-aac1-4394-97b9-3f4f292f018a",
+            "version": 1
+          },
+          {
+            "id": "2ff9acbb-895b-4a3b-8dc6-30079bf44f8e",
+            "version": 1
+          },
+          {
+            "id": "9d06591d-8404-4758-8e89-4ffd06a56c82",
+            "version": 1
+          }
+        ],
+        "sourceMessage": {
+          "messageId": "07d7b45f-82cc-4c94-865f-f71e5ca1b7db",
+          "revision": 1
+        },
+        "entries": [
+          {
+            "kind": "decision",
+            "key": "idea",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "Сервис графиков смен для небольших ресторанов; сейчас пожелания в чатах и ручная таблица.",
+            "origin": "user",
+            "epistemic": "reported",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+                "moduleId": "idea",
+                "generation": 0,
+                "messageId": "09050762-a62b-4e83-a443-a22c8ec20379",
+                "revision": 1,
+                "quote": "Сервис графиков смен для небольших ресторанов; сейчас пожелания в чатах и ручная таблица."
+              }
+            ],
+            "dependsOn": [],
+            "id": "fc3837fe-2db2-40ee-9da9-de54c534fa9b",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:31:38.595Z",
+            "requestId": "88ab6fdf-4a4d-4e23-ad85-6910608335c0"
+          },
+          {
+            "kind": "decision",
+            "key": "geography",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "География проекта — вся Россия.",
+            "origin": "user",
+            "epistemic": "reported",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+                "moduleId": "audience",
+                "generation": 0,
+                "messageId": "84f5dbab-72be-49dd-92e1-57a26a7bc89e",
+                "revision": 1,
+                "quote": "География проекта — вся Россия."
+              }
+            ],
+            "dependsOn": [],
+            "id": "556bf352-3efe-42ea-bd57-85285765afe6",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:31:38.595Z",
+            "requestId": "a6aa7350-714a-41b6-8b12-0e0aab0d2249"
+          },
+          {
+            "kind": "decision",
+            "key": "revenue_model",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "Мы выбрали подписку.",
+            "origin": "user",
+            "epistemic": "reported",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+                "moduleId": "business",
+                "generation": 0,
+                "messageId": "8cba8033-f2e7-43f3-a2c0-9248e2991084",
+                "revision": 1,
+                "quote": "Мы выбрали подписку."
+              }
+            ],
+            "dependsOn": [],
+            "id": "41cf1ff1-9964-47ed-a2c0-659d80205955",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:31:38.596Z",
+            "requestId": "b98147a4-bdf0-4bb2-80e4-2116ce2d9c57"
+          },
+          {
+            "kind": "decision",
+            "key": "price",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "Принимаем придуманную гипотезу: наша цена 5000 рублей за точку в месяц.",
+            "origin": "user",
+            "epistemic": "hypothesis",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+                "moduleId": "business",
+                "generation": 0,
+                "messageId": "e9d9057f-8b77-4aad-ad89-a554ec70c693",
+                "revision": 1,
+                "quote": "Принимаем придуманную гипотезу: наша цена 5000 рублей за точку в месяц."
+              }
+            ],
+            "dependsOn": [],
+            "id": "d3b4bc06-6907-4052-8eea-af229adcd837",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:31:38.596Z",
+            "requestId": "93b37c07-212e-44ed-8dc1-c147f2ad8f45"
+          },
+          {
+            "kind": "decision",
+            "key": "team",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "Работаю один.",
+            "origin": "user",
+            "epistemic": "reported",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+                "moduleId": "idea",
+                "generation": 0,
+                "messageId": "c117a175-2eeb-4435-9c4d-c25a8733d096",
+                "revision": 1,
+                "quote": "Работаю один."
+              }
+            ],
+            "dependsOn": [],
+            "id": "46da3d35-d3dd-4d50-8c39-f015bfee80ae",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:31:38.599Z",
+            "requestId": "24f4c90e-7d29-4bbd-a15e-12dd641c80f1"
+          },
+          {
+            "kind": "decision",
+            "key": "channel",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "Для привлечения выбираю SEO и контент.",
+            "origin": "user",
+            "epistemic": "reported",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+                "moduleId": "roadmap",
+                "generation": 0,
+                "messageId": "8c3ba744-cbc2-4c52-b26b-81fa808be448",
+                "revision": 1,
+                "quote": "Для привлечения выбираю SEO и контент."
+              }
+            ],
+            "dependsOn": [],
+            "id": "5caecaca-5654-42f3-bc0a-c74677b6a5e7",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:31:38.606Z",
+            "requestId": "6752c799-f3a4-44d4-852b-1b0aeab06212"
+          },
+          {
+            "kind": "decision",
+            "key": "mvp_time",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "Ориентир для MVP — две недели, реализуемость ещё не проверена.",
+            "origin": "user",
+            "epistemic": "hypothesis",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+                "moduleId": "roadmap",
+                "generation": 0,
+                "messageId": "a169c93f-e4ed-4779-8242-106cc6a009a1",
+                "revision": 1,
+                "quote": "Ориентир для MVP — две недели, реализуемость ещё не проверена."
+              }
+            ],
+            "dependsOn": [],
+            "id": "50065121-aac1-4394-97b9-3f4f292f018a",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:31:38.607Z",
+            "requestId": "41118bc4-7667-418c-bcd7-5590da76e2ad"
+          },
+          {
+            "kind": "decision",
+            "key": "horizon",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "На ближайшие три месяца: отладить продукт, выпустить и начать первые продажи. Юрстатус уже есть.",
+            "origin": "user",
+            "epistemic": "reported",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+                "moduleId": "roadmap",
+                "generation": 0,
+                "messageId": "d0207222-9bdf-4632-a073-982ebce2db04",
+                "revision": 1,
+                "quote": "На ближайшие три месяца: отладить продукт, выпустить и начать первые продажи. Юрстатус уже есть."
+              }
+            ],
+            "dependsOn": [],
+            "id": "2ff9acbb-895b-4a3b-8dc6-30079bf44f8e",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:31:38.607Z",
+            "requestId": "eaf8d5fe-1840-4b1c-8cc1-28becabcd1d1"
+          },
+          {
+            "kind": "decision",
+            "key": "interviews",
+            "scope": {
+              "subject": "our_project",
+              "entityId": null,
+              "area": "project",
+              "stageId": null,
+              "scenario": null
+            },
+            "text": "Интервью пока не проводились.",
+            "origin": "user",
+            "epistemic": "reported",
+            "acceptance": "accepted",
+            "sources": [
+              {
+                "type": "message",
+                "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+                "moduleId": "audience",
+                "generation": 0,
+                "messageId": "dc163090-5fd1-45ef-a3df-b39c9ea31eaa",
+                "revision": 1,
+                "quote": "Интервью пока не проводились."
+              }
+            ],
+            "dependsOn": [],
+            "id": "9d06591d-8404-4758-8e89-4ffd06a56c82",
+            "version": 1,
+            "previousVersion": null,
+            "createdAt": "2026-11-15T12:31:38.608Z",
+            "requestId": "205152dc-7484-40e1-994c-81ef264d6206"
+          }
+        ],
+        "sourceMessages": [
+          {
+            "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+            "moduleId": "idea",
+            "generation": 0,
+            "messageId": "09050762-a62b-4e83-a443-a22c8ec20379",
+            "revision": 1,
+            "role": "user",
+            "content": "Сервис графиков смен для небольших ресторанов; сейчас пожелания в чатах и ручная таблица.",
+            "createdAt": "2026-11-15T12:31:38.593Z"
+          },
+          {
+            "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+            "moduleId": "audience",
+            "generation": 0,
+            "messageId": "84f5dbab-72be-49dd-92e1-57a26a7bc89e",
+            "revision": 1,
+            "role": "user",
+            "content": "География проекта — вся Россия.",
+            "createdAt": "2026-11-15T12:31:38.595Z"
+          },
+          {
+            "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+            "moduleId": "business",
+            "generation": 0,
+            "messageId": "8cba8033-f2e7-43f3-a2c0-9248e2991084",
+            "revision": 1,
+            "role": "user",
+            "content": "Мы выбрали подписку.",
+            "createdAt": "2026-11-15T12:31:38.595Z"
+          },
+          {
+            "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+            "moduleId": "business",
+            "generation": 0,
+            "messageId": "e9d9057f-8b77-4aad-ad89-a554ec70c693",
+            "revision": 1,
+            "role": "user",
+            "content": "Принимаем придуманную гипотезу: наша цена 5000 рублей за точку в месяц.",
+            "createdAt": "2026-11-15T12:31:38.596Z"
+          },
+          {
+            "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+            "moduleId": "idea",
+            "generation": 0,
+            "messageId": "c117a175-2eeb-4435-9c4d-c25a8733d096",
+            "revision": 1,
+            "role": "user",
+            "content": "Работаю один.",
+            "createdAt": "2026-11-15T12:31:38.596Z"
+          },
+          {
+            "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+            "moduleId": "roadmap",
+            "generation": 0,
+            "messageId": "8c3ba744-cbc2-4c52-b26b-81fa808be448",
+            "revision": 1,
+            "role": "user",
+            "content": "Для привлечения выбираю SEO и контент.",
+            "createdAt": "2026-11-15T12:31:38.599Z"
+          },
+          {
+            "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+            "moduleId": "roadmap",
+            "generation": 0,
+            "messageId": "a169c93f-e4ed-4779-8242-106cc6a009a1",
+            "revision": 1,
+            "role": "user",
+            "content": "Ориентир для MVP — две недели, реализуемость ещё не проверена.",
+            "createdAt": "2026-11-15T12:31:38.606Z"
+          },
+          {
+            "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+            "moduleId": "roadmap",
+            "generation": 0,
+            "messageId": "d0207222-9bdf-4632-a073-982ebce2db04",
+            "revision": 1,
+            "role": "user",
+            "content": "На ближайшие три месяца: отладить продукт, выпустить и начать первые продажи. Юрстатус уже есть.",
+            "createdAt": "2026-11-15T12:31:38.607Z"
+          },
+          {
+            "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+            "moduleId": "audience",
+            "generation": 0,
+            "messageId": "dc163090-5fd1-45ef-a3df-b39c9ea31eaa",
+            "revision": 1,
+            "role": "user",
+            "content": "Интервью пока не проводились.",
+            "createdAt": "2026-11-15T12:31:38.607Z"
+          },
+          {
+            "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+            "moduleId": "competitors",
+            "generation": 0,
+            "messageId": "07d7b45f-82cc-4c94-865f-f71e5ca1b7db",
+            "revision": 1,
+            "role": "user",
+            "content": "Конкурентов не знаю. Найди их сам и сравни актуальные тарифы, прочитай первичные страницы.",
+            "createdAt": "2026-11-15T12:31:38.608Z"
+          }
+        ],
+        "evidence": []
+      },
+      "requestId": "49b31ee9-f625-42b3-acc2-e7c95ad18d8b",
+      "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+      "moduleId": "competitors",
+      "intent": "message",
+      "message": "Конкурентов не знаю. Найди их сам и сравни актуальные тарифы, прочитай первичные страницы.",
+      "context": {
+        "name": "Acceptance K04",
+        "description": "Работаю один. Идея: простой сервис графиков смен для небольших ресторанов России. Сейчас пожелания собирают в чатах, график ведут вручную в таблице. Сотрудник видит текущую и следующую недели, предлагает выходной на следующую неделю и обмен сменами после публикации. Об обмене уведомляем заместителя и директора. Первый пилот — одно кафе в Самаре. Подписка, гипотеза цены 5000 рублей за точку в месяц. Интервью пока не проводил. Привлечение — SEO и контент. Ориентир MVP — две недели; на ближайшие три месяца — отладить продукт, выпустить и начать первые продажи. Юрстатус уже есть.",
+        "facts": [],
+        "artifacts": [
+          {
+            "moduleId": "idea",
+            "title": "Графики смен",
+            "body": "Работаю один. Идея: простой сервис графиков смен для небольших ресторанов России. Сейчас пожелания собирают в чатах, график ведут вручную в таблице. Сотрудник видит текущую и следующую недели, предлагает выходной на следующую неделю и обмен сменами после публикации. Об обмене уведомляем заместителя и директора. Первый пилот — одно кафе в Самаре. Подписка, гипотеза цены 5000 рублей за точку в месяц. Интервью пока не проводил. Привлечение — SEO и контент. Ориентир MVP — две недели; на ближайшие три месяца — отладить продукт, выпустить и начать первые продажи. Юрстатус уже есть.",
+            "stale": false
+          },
+          {
+            "moduleId": "audience",
+            "title": "Первый сегмент",
+            "body": "Независимые кафе с ручным графиком. Пользователь — управляющий и сотрудники; плательщик/утверждающий требует проверки. Пилот: одно кафе в Самаре.",
+            "stale": false
+          }
+        ],
+        "history": [],
+        "memories": []
+      }
+    },
+    "raw": {
+      "message": "Проверил доступные первичные страницы 15.11.2026. Нашёл один явно релевантный сервис с опубликованной помесячной ценой — «Сменчик». По «Смене» тарифы прочитаны, но найденная страница описывает чек-листы, обучение и отзывы, а не график смен, поэтому это смежная альтернатива, не подтверждённый прямой конкурент. Две страницы прочитать не удалось; тарифы Quick Resto и soft-smena.com оставляю неизвестными. Подробности и ограничения — в черновике ниже.",
+      "choices": [],
+      "artifactDraft": {
+        "title": "Предварительное сравнение альтернатив графику смен для небольшого ресторана",
+        "body": "## Альтернативы: найденные варианты\n\n- **Сменчик** — наиболее прямой найденный кандидат: первичная страница описывает график смен и показывает цену. Проверить на демо, покрывает ли он именно ваш сценарий: пожелания, просмотр текущей и следующей недель, предложения выходного и обмен после публикации с уведомлением руководителей.\n- **Quick Resto** — найден раздел справки о графике работы и отдельная официальная страница цен, но страницу о графике удалось прочитать лишь частично, а страницу тарифов открыть не удалось. В доступных цитатах нет подтверждения нужного сценария и цены.\n- **«Окей, сделал!» для YCLIENTS** — найдена официальная страница тарифов, но доступные фрагменты не подтверждают, что продукт решает задачу графика смен. Тарифные суммы без единицы и условий нельзя честно сравнить с подпиской за точку.\n- **«Смена»** — найденная страница посвящена ресторанным чек-листам, обучению и отзывам. Оплата за локацию и цены опубликованы, но графики смен этой страницей не подтверждены; считаю смежным продуктом.\n- **Ручной способ: чат + таблица** — уже используемая альтернатива по вводным проекта. Денежная цена неизвестна; затраты времени, ошибки, согласование и уведомления пока не измерены.\n\n## Критерии сравнения и таблица\n\nОдинаковые критерии: соответствие задаче графика смен; единица оплаты; опубликованный тариф; насколько подтверждены обмен и уведомления; ограничения проверки. «Не найдено» не означает, что функции нет.\n\n| Альтернатива | Задача графика смен | Цена, как указана на первичной странице | Обмен смен / уведомления руководителей | Ограничение сравнения |\n|---|---|---|---|---|\n| Сменчик | Да: страница посвящена графику смен | 1 490 ₽ в месяц за всю компанию | В доступных цитатах не подтверждено | Нужно проверить функции, лимиты, условия оплаты и соответствие сценарию кафе |\n| Quick Resto | Не подтверждено доступными цитатами прочитанной страницы | Неизвестна: страницу цен не удалось прочитать | Неизвестно | Страница справки прочитана частично; доступные фрагменты не подтверждают нужный процесс |\n| «Окей, сделал!» / YCLIENTS | Не подтверждено доступными материалами | На странице видны 0 руб/мес и «от 480 руб/мес»; единица/условия этих фрагментов не установлены. Также видны 600₽ и 700₽ без достаточного контекста | Неизвестно | Нужна проверка предназначения тарифов и полного контекста цены |\n| «Смена» | Найденная страница описывает не графики, а чек-листы, обучение и отзывы | 990 ₽ или 2 990 ₽ за локацию в месяц | Не подтверждено для графиков смен | Смежный продукт; тариф не доказывает пригодность для планирования смен |\n| Чат + таблица | Да, это текущий ручной способ по вводным проекта | Денежная стоимость неизвестна | Можно организовать вручную, но фактический процесс и затраты не измерены | Нет данных о времени менеджера, ошибках и сложности контроля |\n\n## Тарифы и условия оплаты\n\n- **Сменчик:** «1490 ₽ в месяц за всю компанию». Валюта — ₽; период — месяц; единица — вся компания. Дополнительные условия оплаты и лимиты в доступной цитате не указаны.\n- **«Смена»:** «Базовый тариф — 990 ₽ за локацию в месяц, ПРО — 2 990 ₽. Платите за локации, а не за людей: лимита на сотрудников нет. Оплатить можно картой или по счёту.» Условия помесячного списания, предоплаты и налоги не уточнены в цитате.\n- **«Окей, сделал!» / YCLIENTS:** страницы показывают «0 руб/мес» и «от 480 руб/мес», а также отдельные суммы «600₽» и «700₽». Без контекста тарифов нельзя определить, что входит в суммы, за какую единицу взимается цена и какие условия оплаты действуют; не использую их как сопоставимый тариф.\n- **Quick Resto и soft-smena.com:** цена неизвестна — первичные страницы тарифов не удалось прочитать.\n- Это публичные предложения, не сведения о фактических платежах клиентов, среднем чеке или нашей цене. Ваша гипотеза 5 000 рублей за точку в месяц — отдельное предположение, не подтверждённое этими тарифами.\n\n## Известные сведения и источники: даты и ограничения\n\nВсе доступные страницы получены и прочитаны **15.11.2026**; дата публикации/вступления тарифов в силу на страницах не установлена.\n\n- [Сменчик — главная страница](https://smenchik.ru/): страница о графике смен; указано «1490 ₽ в месяц за всю компанию». Прочитана; дата публикации не указана.\n- [«Смена» — страница приложения](https://smena.cafe/): описывает чек-листы, обучение и отзывы; указывает тарифы за локацию и способы оплаты. Прочитана; дата публикации не указана.\n- [«Окей, сделал!» — тарифы для YCLIENTS](https://oksdelal.ru/pricing/): прочитана страница тарифов, но доступные выдержки не дают надёжно сопоставить все суммы, единицы и функции с задачей графика смен.\n- [Quick Resto — справка о графике работы](https://quickresto.ru/support/rabota_s_bek_offisom/personal/grafik_raboty/): страница прочитана частично; доступные выдержки не подтверждают требуемые функции графика смен.\n- [Quick Resto — цены](https://quickresto.ru/price/): страницу не удалось прочитать; сведений о тарифах нет.\n- [soft-smena.com](https://soft-smena.com/): страницу не удалось прочитать; свойства продукта и тарифы не подтверждены.\n\n## Непроверенные допущения и гипотеза отличия\n\n**Гипотеза отличия, не установленный факт:** для небольшого кафе может быть особенно ценно простое согласование обмена смен после публикации с уведомлением заместителя и директора — без необходимости вести пожелания в разрозненных чатах. Пока неизвестно, насколько это уже доступно у найденных сервисов и насколько важно покупателю.\n\nОтдельно проверить: у кого из альтернатив есть просмотр текущей и следующей недели; как оформляются выходной и обмен; кто подтверждает обмен; какие уведомления получает руководство; стоимость при размере команды конкретного кафе; нужны ли установка, обучение или отдельные модули.\n\n## Ближайшее действие\n\nНа демонстрации или в пробном доступе **Сменчика** пройти один и тот же тестовый сценарий: опубликовать график, запросить выходной на следующую неделю, предложить обмен после публикации и проверить, кто получает уведомление и кто его подтверждает. Записать результаты и полную цену с единицей, периодом, лимитами и условиями оплаты. Затем задать те же вопросы одному управляющему кафе о его последнем реальном изменении графика. Это проверит и альтернативу, и значимость предполагаемого отличия."
+      },
+      "proposedFacts": [],
+      "memoryOperations": [],
+      "externalClaims": [
+        {
+          "text": "Сменчик описан как сервис графика смен; на его странице указано 1 490 ₽ в месяц за всю компанию.",
+          "evidenceId": "web-3d8aa1f7eab44bbb78658f7a",
+          "version": 1,
+          "quoteId": "quote-1",
+          "price": {
+            "amount": "1490",
+            "currency": "₽",
+            "unit": "за всю компанию",
+            "period": "в месяц",
+            "paymentTerms": "unknown"
+          }
+        },
+        {
+          "text": "Страница «Смены» описывает ресторанное приложение с чек-листами, обучением и отзывами.",
+          "evidenceId": "web-17d2029cba999c15aea144df",
+          "version": 1,
+          "quoteId": "quote-1",
+          "price": null
+        },
+        {
+          "text": "«Смена» указывает базовый тариф 990 ₽ за локацию в месяц и ПРО за 2 990 ₽ за локацию в месяц; лимита на сотрудников нет, оплатить можно картой или по счёту.",
+          "evidenceId": "web-17d2029cba999c15aea144df",
+          "version": 1,
+          "quoteId": "quote-5",
+          "price": {
+            "amount": "990 ₽; ПРО — 2 990 ₽",
+            "currency": "₽",
+            "unit": "за локацию",
+            "period": "в месяц",
+            "paymentTerms": "Оплатить можно картой или по счёту."
+          }
+        },
+        {
+          "text": "На тарифной странице «Окей, сделал!» присутствуют цена 0 руб/мес и предложение «от 480 руб/мес»; доступная цитата не уточняет единицу и условия оплаты.",
+          "evidenceId": "web-bc550ce4d6fff0a6c5c974f0",
+          "version": 1,
+          "quoteId": "quote-2",
+          "price": {
+            "amount": "от 480",
+            "currency": "руб",
+            "unit": "unknown",
+            "period": "мес",
+            "paymentTerms": "unknown"
+          }
+        },
+        {
+          "text": "На тарифной странице «Окей, сделал!» указано 0 руб/мес; единица и условия в доступной цитате не указаны.",
+          "evidenceId": "web-bc550ce4d6fff0a6c5c974f0",
+          "version": 1,
+          "quoteId": "quote-1",
+          "price": {
+            "amount": "0",
+            "currency": "руб",
+            "unit": "unknown",
+            "period": "мес",
+            "paymentTerms": "unknown"
+          }
+        },
+        {
+          "text": "В доступных фрагментах страницы Quick Resto о графике работы нет достаточного подтверждения функций сервиса для рассматриваемого сценария смен.",
+          "evidenceId": "web-c76ae56346a3acceb78ca2b4",
+          "version": 1,
+          "quoteId": "quote-1",
+          "price": null
+        }
+      ],
+      "memory": {
+        "facts": [
+          {
+            "text": "Идея — сервис графиков смен для небольших ресторанов; сейчас пожелания собирают в чатах, график ведут вручную в таблице.",
+            "evidence": "«Сервис графиков смен для небольших ресторанов; сейчас пожелания в чатах и ручная таблица.»"
+          },
+          {
+            "text": "География проекта — вся Россия.",
+            "evidence": "«География проекта — вся Россия.»"
+          },
+          {
+            "text": "Первый проектный тарифный ориентир — подписка 5 000 рублей за точку в месяц, принятая как гипотеза.",
+            "evidence": "«Принимаем придуманную гипотезу: наша цена 5000 рублей за точку в месяц.»"
+          },
+          {
+            "text": "Интервью пока не проводились.",
+            "evidence": "«Интервью пока не проводились.»"
+          }
+        ],
+        "hypotheses": [
+          "Возможное отличие — обмен смен после публикации с уведомлением заместителя и директора; важность для кафе и отличие от альтернатив не проверены."
+        ],
+        "openQuestions": [
+          "Какие найденные продукты реально поддерживают предложения выходного, обмен после публикации и уведомления руководителей?"
+        ]
+      }
+    },
+    "evidence": [
+      {
+        "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+        "moduleId": "competitors",
+        "generation": 0,
+        "id": "web-c76ae56346a3acceb78ca2b4",
+        "version": 1,
+        "requestId": "49b31ee9-f625-42b3-acc2-e7c95ad18d8b",
+        "operationId": "read-1",
+        "url": "https://quickresto.ru/support/rabota_s_bek_ofisom/personal/grafik_raboty/",
+        "title": "График работы — Quick Resto",
+        "retrievedAt": "2026-11-15T12:31:50.150Z",
+        "publishedAt": null,
+        "effectiveAt": null,
+        "retrieval": "read",
+        "contentHash": "e5c64e77a107439991ec5f76876e6c899922ad5bab60df74c49dc25d111a24ba",
+        "quotes": [
+          {
+            "id": "quote-1",
+            "text": "Выбор по меню, оплата, доставка, самовывоз",
+            "start": 394,
+            "end": 436
+          },
+          {
+            "id": "quote-2",
+            "text": "Схема зала, заказы, бонусы в CRM, чеки, 3 типа оплат",
+            "start": 784,
+            "end": 836
+          },
+          {
+            "id": "quote-3",
+            "text": "Где посмотреть, какие типы оплат использовались при оплате чека или за кассовую смену?",
+            "start": 3596,
+            "end": 3682
+          },
+          {
+            "id": "quote-4",
+            "text": "Настройка онлайн-оплаты для продуктов Бустера",
+            "start": 5080,
+            "end": 5125
+          },
+          {
+            "id": "quote-5",
+            "text": "Настройка онлайн-оплаты для продуктов лояльности",
+            "start": 5575,
+            "end": 5623
+          }
+        ],
+        "limitations": [
+          "Страница ограничена первыми 12000 символами; часть условий может отсутствовать.",
+          "Дата публикации не указана."
+        ]
+      },
+      {
+        "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+        "moduleId": "competitors",
+        "generation": 0,
+        "id": "unread-14afbbf537a53e9c8495cb60",
+        "version": 1,
+        "requestId": "49b31ee9-f625-42b3-acc2-e7c95ad18d8b",
+        "operationId": "read-2",
+        "url": "https://quickresto.ru/price/",
+        "title": "quickresto.ru",
+        "retrievedAt": "2026-11-15T12:31:50.369Z",
+        "publishedAt": null,
+        "effectiveAt": null,
+        "retrieval": "unavailable",
+        "contentHash": "unavailable",
+        "quotes": [],
+        "limitations": [
+          "Страница найдена, но прочитать её не удалось. Сведения и тарифы не подтверждены."
+        ]
+      },
+      {
+        "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+        "moduleId": "competitors",
+        "generation": 0,
+        "id": "web-3d8aa1f7eab44bbb78658f7a",
+        "version": 1,
+        "requestId": "49b31ee9-f625-42b3-acc2-e7c95ad18d8b",
+        "operationId": "read-3",
+        "url": "https://smenchik.ru/",
+        "title": "График смен, учёт рабочего времени и расчёт зарплаты — Сменчик",
+        "retrievedAt": "2026-11-15T12:31:50.669Z",
+        "publishedAt": null,
+        "effectiveAt": null,
+        "retrieval": "read",
+        "contentHash": "67d7ea3aae155c18426acb99806ee7a89fb6da60bd4bb2b557c122e89aaf9f84",
+        "quotes": [
+          {
+            "id": "quote-1",
+            "text": "1490 ₽ в месяц за всю компанию",
+            "start": 526,
+            "end": 556
+          },
+          {
+            "id": "quote-2",
+            "text": "Нажмите на клетку или имя — расчёт обновится. Пример: ставка 400 ₽/ч, ночные +20%.",
+            "start": 641,
+            "end": 723
+          },
+          {
+            "id": "quote-3",
+            "text": "Ставка − 400 ₽/ч +",
+            "start": 1703,
+            "end": 1721
+          },
+          {
+            "id": "quote-4",
+            "text": "Доплата за ночь 320 ₽",
+            "start": 2387,
+            "end": 2408
+          },
+          {
+            "id": "quote-5",
+            "text": "За смену 3 520 ₽",
+            "start": 2410,
+            "end": 2426
+          }
+        ],
+        "limitations": [
+          "Дата публикации не указана."
+        ]
+      },
+      {
+        "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+        "moduleId": "competitors",
+        "generation": 0,
+        "id": "web-bc550ce4d6fff0a6c5c974f0",
+        "version": 1,
+        "requestId": "49b31ee9-f625-42b3-acc2-e7c95ad18d8b",
+        "operationId": "read-4",
+        "url": "https://oksdelal.ru/pricing/",
+        "title": "Цены — Окей, сделал! | Тарифы для YCLIENTS",
+        "retrievedAt": "2026-11-15T12:31:50.882Z",
+        "publishedAt": null,
+        "effectiveAt": null,
+        "retrieval": "read",
+        "contentHash": "1a634711076ee7d5de476ddcf041223b9eff7c4b765ed000195e2058cc5064be",
+        "quotes": [
+          {
+            "id": "quote-1",
+            "text": "0 руб/мес",
+            "start": 1237,
+            "end": 1246
+          },
+          {
+            "id": "quote-2",
+            "text": "от 480 руб/мес",
+            "start": 1450,
+            "end": 1464
+          },
+          {
+            "id": "quote-3",
+            "text": "Получите постоянную скидку за отзыв — она навсегда уменьшит для филиала стоимость тарифа на 200 рублей в месяц.",
+            "start": 1466,
+            "end": 1577
+          },
+          {
+            "id": "quote-4",
+            "text": "600₽",
+            "start": 1596,
+            "end": 1600
+          },
+          {
+            "id": "quote-5",
+            "text": "700₽",
+            "start": 1648,
+            "end": 1652
+          }
+        ],
+        "limitations": [
+          "Дата публикации не указана."
+        ]
+      },
+      {
+        "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+        "moduleId": "competitors",
+        "generation": 0,
+        "id": "web-17d2029cba999c15aea144df",
+        "version": 1,
+        "requestId": "49b31ee9-f625-42b3-acc2-e7c95ad18d8b",
+        "operationId": "read-5",
+        "url": "https://smena.cafe/",
+        "title": "Приложение «Смена»: чек-листы, обучение и отзывы для ресторана",
+        "retrievedAt": "2026-11-15T12:31:51.234Z",
+        "publishedAt": null,
+        "effectiveAt": null,
+        "retrieval": "read",
+        "contentHash": "ff90fef153476d269d60e686762cc3cd65cbadf1b2fce98bee47323aa1108391",
+        "quotes": [
+          {
+            "id": "quote-1",
+            "text": "От 990 ₽ за локацию в месяц.",
+            "start": 499,
+            "end": 527
+          },
+          {
+            "id": "quote-2",
+            "text": "Оплата за локацию, не за людей.",
+            "start": 2469,
+            "end": 2500
+          },
+          {
+            "id": "quote-3",
+            "text": "990 ₽ за локацию в месяц",
+            "start": 2661,
+            "end": 2685
+          },
+          {
+            "id": "quote-4",
+            "text": "2 990 ₽ за локацию в месяц",
+            "start": 3075,
+            "end": 3101
+          },
+          {
+            "id": "quote-5",
+            "text": "Сколько стоит «Смена» для кафе или сети? Базовый тариф — 990 ₽ за локацию в месяц, ПРО — 2 990 ₽. Платите за локации, а не за людей: лимита на сотрудников нет. Оплатить можно картой или по счёту.",
+            "start": 4683,
+            "end": 4878
+          }
+        ],
+        "limitations": [
+          "Дата публикации не указана."
+        ]
+      },
+      {
+        "projectId": "3246f512-4e74-46c0-9e7b-f140ddc6148d",
+        "moduleId": "competitors",
+        "generation": 0,
+        "id": "unread-029e5b53696ee7bd8a194a73",
+        "version": 1,
+        "requestId": "49b31ee9-f625-42b3-acc2-e7c95ad18d8b",
+        "operationId": "read-6",
+        "url": "https://soft-smena.com/",
+        "title": "soft-smena.com",
+        "retrievedAt": "2026-11-15T12:32:01.248Z",
+        "publishedAt": null,
+        "effectiveAt": null,
+        "retrieval": "unavailable",
+        "contentHash": "unavailable",
+        "quotes": [],
+        "limitations": [
+          "Страница найдена, но прочитать её не удалось. Сведения и тарифы не подтверждены."
+        ]
+      }
+    ]
+  }
+]

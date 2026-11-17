@@ -1,0 +1,12 @@
+.ds-stage-title { text-transform: uppercase; }
+.ds-stage-intro { display: flex; flex-direction: column; align-items: center; gap: var(--ds-space-4); text-align: center; }
+.ds-stage-intro > h1 { margin: 0; max-width: 100%; font: 500 var(--ds-text-h1)/var(--ds-leading-heading) var(--ds-font-heading); letter-spacing: -.7px; text-wrap: balance; }
+.ds-stage-intro-description { max-width: 60ch; margin: 0; color: var(--ds-text-secondary); font: 400 var(--ds-text-sm)/1.65 var(--ds-font-body); text-wrap: pretty; }
+.ds-stage-intro-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--ds-space-2); margin-top: var(--ds-space-2); }
+.ds-stage-title-flight { position: fixed; z-index: 20; pointer-events: none; overflow: hidden; text-wrap: balance; transform-origin: top left; }
+.ds-stage-preview { border: 1px solid var(--ds-border); border-radius: var(--ds-radius-card); }
+.ds-stage-preview-header { display: flex; align-items: center; justify-content: flex-end; gap: var(--ds-space-4); min-height: var(--ds-control-lg); padding: var(--ds-space-2) var(--ds-space-4); }
+.ds-stage-preview-header h3 { margin: 0 auto 0 0; font-size: var(--ds-text-sm); font-weight: 500; }
+.ds-stage-preview-body { display: grid; align-content: center; min-height: 320px; padding: var(--ds-space-6); }
+.ds-stage-preview-body > p { color: var(--ds-text-secondary); font-size: var(--ds-text-sm); }
+@media (max-width: 639px) { .ds-stage-intro > h1 { font-size: var(--ds-text-h2); letter-spacing: -.4px; } }

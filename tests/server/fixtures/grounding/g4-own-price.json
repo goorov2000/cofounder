@@ -1,0 +1,113 @@
+[
+  {
+    "iteration": 1,
+    "atoms": [
+      {
+        "kind": "unknown",
+        "key": "competitors_average_check",
+        "scope": {
+          "subject": "our_project",
+          "entityId": null,
+          "area": "stage",
+          "stageId": "business",
+          "scenario": null
+        },
+        "text": "В прошлом обсуждении приняли, что у конкурентов средний чек «5к»; валюта, единица, период и источник не уточнены, утверждение не проверено.",
+        "origin": "user",
+        "epistemic": "unknown",
+        "acceptance": "unresolved",
+        "sources": [
+          {
+            "type": "message",
+            "projectId": "cc80014a-6207-4f85-a10b-2e26730c72ad",
+            "moduleId": "business",
+            "generation": 0,
+            "messageId": "f37e564a-c11b-451b-bdd0-1f5c9785bf0a",
+            "revision": 1,
+            "quote": "в прошлом обсуждении мы приняли что у конкурентов средний чек 5к"
+          }
+        ],
+        "dependsOn": [],
+        "id": "9f900374-061f-426d-84f2-1adb8f0277ed",
+        "version": 1,
+        "previousVersion": null,
+        "createdAt": "2026-11-15T10:38:37.821Z",
+        "requestId": "df2b30ac-6635-4d9c-ad96-5532f6a6ad3e"
+      }
+    ]
+  },
+  {
+    "iteration": 2,
+    "atoms": [
+      {
+        "kind": "decision",
+        "key": "competitor_average_check",
+        "scope": {
+          "subject": "our_project",
+          "entityId": null,
+          "area": "scenario",
+          "stageId": null,
+          "scenario": "Рабочая гипотеза о среднем чеке конкурентов"
+        },
+        "text": "В прошлом обсуждении приняли гипотезу: у конкурентов средний чек 5к. Единица, период и основание оценки не указаны; это не цена нашего проекта.",
+        "origin": "user",
+        "epistemic": "hypothesis",
+        "acceptance": "accepted",
+        "sources": [
+          {
+            "type": "message",
+            "projectId": "47f94a51-f257-40f0-b629-c2421f30061a",
+            "moduleId": "business",
+            "generation": 0,
+            "messageId": "217d0322-856a-4989-80c5-506bb56e328f",
+            "revision": 1,
+            "quote": "в прошлом обсуждении мы приняли что у конкурентов средний чек 5к"
+          }
+        ],
+        "dependsOn": [],
+        "id": "098de37a-9c3c-400b-a708-67d7309ceee1",
+        "version": 1,
+        "previousVersion": null,
+        "createdAt": "2026-11-15T10:38:54.799Z",
+        "requestId": "28fb806c-6582-482e-9cdb-c0ebda1c7417"
+      }
+    ]
+  },
+  {
+    "iteration": 3,
+    "atoms": [
+      {
+        "kind": "unknown",
+        "key": "competitor_average_check",
+        "scope": {
+          "subject": "external_entity",
+          "entityId": "competitors",
+          "area": "stage",
+          "stageId": "business",
+          "scenario": null
+        },
+        "text": "Валюта, основание и состав выборки для сообщённого среднего чека конкурентов «5к» не установлены; значение не подтверждено.",
+        "origin": "user",
+        "epistemic": "unknown",
+        "acceptance": "unresolved",
+        "sources": [
+          {
+            "type": "message",
+            "projectId": "821f5f11-340a-4004-a9ca-6de59574c73c",
+            "moduleId": "business",
+            "generation": 0,
+            "messageId": "80545341-e4ac-4b7e-96f8-7c3b9d032fe7",
+            "revision": 1,
+            "quote": "в прошлом обсуждении мы приняли что у конкурентов средний чек 5к"
+          }
+        ],
+        "dependsOn": [],
+        "id": "ae457635-2c59-409e-8dda-2952c5c67297",
+        "version": 1,
+        "previousVersion": null,
+        "createdAt": "2026-11-15T10:39:07.894Z",
+        "requestId": "a0f04ce9-88e0-4892-9635-c1ab7340aaf0"
+      }
+    ]
+  }
+]

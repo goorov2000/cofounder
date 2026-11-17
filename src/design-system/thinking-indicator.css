@@ -1,0 +1,9 @@
+.ds-thinking { display: flex; align-items: center; gap: 10px; min-height: 28px; padding-block: 4px; color: var(--ds-text-secondary); font: 500 14px/20px var(--ds-font-body); }
+.ds-thinking-dots { display: flex; align-items: center; gap: 4px; flex-shrink: 0; }
+.ds-thinking-dots i { width: 4px; height: 4px; border-radius: 50%; background: var(--ds-accent); animation: ds-think var(--ds-motion-ambient) var(--ds-motion-ease-ambient) infinite; }
+.ds-thinking-dots i:nth-child(2) { animation-delay: var(--ds-motion-stagger); }
+.ds-thinking-dots i:nth-child(3) { animation-delay: calc(2 * var(--ds-motion-stagger)); }
+.ds-thinking-label { animation: ds-thought-appear var(--ds-motion-enter) var(--ds-motion-ease); }
+@keyframes ds-think { 0%, 80%, 100% { opacity: .35; transform: translateY(0); } 40% { opacity: 1; transform: translateY(-2px); } }
+@keyframes ds-thought-appear { from { opacity: .4; } to { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .ds-thinking-dots i, .ds-thinking-label { animation: none; } }

@@ -1,0 +1,7 @@
+{
+  "source": "/brand/cofounder-original.png",
+  "width": 1254,
+  "height": 1254,
+  "crop": { "x": 144, "y": 162, "size": 970 },
+  "favicon": { "size": 64, "inset": 2 }
+}

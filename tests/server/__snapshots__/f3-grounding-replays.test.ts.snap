@@ -1,0 +1,200 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`localizes unchanged historical A-competitors-correction-refusal without leaking input > A-competitors-correction-refusal 1`] = `
+{
+  "path": [
+    "externalClaims",
+    0,
+    "quoteId",
+  ],
+  "relatedIssues": [
+    {
+      "path": [
+        "externalClaims",
+        1,
+        "quoteId",
+      ],
+      "rule": "missing_read_quote",
+    },
+    {
+      "path": [
+        "externalClaims",
+        2,
+        "quoteId",
+      ],
+      "rule": "missing_read_quote",
+    },
+    {
+      "path": [
+        "externalClaims",
+        3,
+        "quoteId",
+      ],
+      "rule": "missing_read_quote",
+    },
+    {
+      "path": [
+        "externalClaims",
+        4,
+        "quoteId",
+      ],
+      "rule": "missing_read_quote",
+    },
+    {
+      "path": [
+        "externalClaims",
+        5,
+        "quoteId",
+      ],
+      "rule": "missing_read_quote",
+    },
+  ],
+  "rule": "missing_read_quote",
+}
+`;
+
+exports[`localizes unchanged historical A-idea-correction-refusal without leaking input > A-idea-correction-refusal 1`] = `
+{
+  "path": [
+    "memoryPatch",
+    "operations",
+    0,
+    "value",
+    "scope",
+  ],
+  "rule": "invalid_memory_value",
+}
+`;
+
+exports[`localizes unchanged historical A-search-from-audience without leaking input > A-search-from-audience 1`] = `
+{
+  "path": [
+    "externalClaims",
+    0,
+    "price",
+    "unit",
+  ],
+  "relatedIssues": [
+    {
+      "path": [
+        "externalClaims",
+        1,
+        "price",
+        "unit",
+      ],
+      "rule": "ungrounded_price_term",
+    },
+    {
+      "path": [
+        "externalClaims",
+        2,
+        "price",
+        "unit",
+      ],
+      "rule": "ungrounded_price_term",
+    },
+    {
+      "path": [
+        "externalClaims",
+        3,
+        "price",
+        "unit",
+      ],
+      "rule": "ungrounded_price_term",
+    },
+    {
+      "path": [
+        "externalClaims",
+        4,
+        "price",
+        "unit",
+      ],
+      "rule": "ungrounded_price_term",
+    },
+    {
+      "path": [
+        "externalClaims",
+        5,
+        "price",
+        "amount",
+      ],
+      "rule": "ungrounded_amount",
+    },
+    {
+      "path": [
+        "externalClaims",
+        7,
+        "price",
+        "unit",
+      ],
+      "rule": "ungrounded_price_term",
+    },
+    {
+      "path": [
+        "externalClaims",
+        8,
+        "price",
+        "unit",
+      ],
+      "rule": "ungrounded_price_term",
+    },
+  ],
+  "rule": "ungrounded_price_term",
+}
+`;
+
+exports[`localizes unchanged historical B-competitors-unknown without leaking input > B-competitors-unknown 1`] = `
+{
+  "path": [
+    "externalClaims",
+    0,
+    "price",
+    "period",
+  ],
+  "relatedIssues": [
+    {
+      "path": [
+        "externalClaims",
+        1,
+        "price",
+        "period",
+      ],
+      "rule": "ungrounded_price_term",
+    },
+  ],
+  "rule": "ungrounded_price_term",
+}
+`;
+
+exports[`localizes unchanged historical D01 without leaking input > D01 1`] = `
+{
+  "path": [
+    "message",
+  ],
+  "rule": "invalid_control_character",
+}
+`;
+
+exports[`localizes unchanged historical D15 without leaking input > D15 1`] = `
+{
+  "path": [
+    "memoryPatch",
+    "operations",
+    0,
+    "value",
+    "text",
+  ],
+  "rule": "ungrounded_memory_quantity",
+}
+`;
+
+exports[`localizes unchanged historical K06 without leaking input > K06 1`] = `
+{
+  "path": [
+    "externalClaims",
+    1,
+    "text",
+  ],
+  "rule": "ungrounded_quantity",
+}
+`;

@@ -1,0 +1,426 @@
+{
+  "version": "1.0.0",
+  "rule": "Каждый применимый пункт должен пройти; не усреднять. Неизученные пункты not_run.",
+  "reviews": [
+    {
+      "project": "restaurant",
+      "stage": "idea",
+      "rubrics": {
+        "process": [
+          {
+            "property": "Использованы известные вводные, нет ненужного повторного вопроса",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Подходящая методика применена к проекту",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Доступная боту работа выполнена, обещания подтверждены действиями",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Вопросы относятся к реальному пробелу/выбору; на «не знаю» есть помощь",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Поправка/отказ пользователя учтены, ошибки не замаскированы",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          }
+        ],
+        "result": [
+          {
+            "property": "Существенные условия и текущие решения сохранены",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Материал конкретен и соответствует форме результата этапа",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Существенные утверждения имеют подходящее основание",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Гипотезы, неизвестное и подтверждённые сведения различимы",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Понятен ближайший шаг, версии не противоречат друг другу",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          }
+        ]
+      }
+    },
+    {
+      "project": "restaurant",
+      "stage": "audience",
+      "rubrics": {
+        "process": [
+          {
+            "property": "Использованы известные вводные, нет ненужного повторного вопроса",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Подходящая методика применена к проекту",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Доступная боту работа выполнена, обещания подтверждены действиями",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Вопросы относятся к реальному пробелу/выбору; на «не знаю» есть помощь",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Поправка/отказ пользователя учтены, ошибки не замаскированы",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          }
+        ],
+        "result": [
+          {
+            "property": "Существенные условия и текущие решения сохранены",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Материал конкретен и соответствует форме результата этапа",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Существенные утверждения имеют подходящее основание",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Гипотезы, неизвестное и подтверждённые сведения различимы",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Понятен ближайший шаг, версии не противоречат друг другу",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          }
+        ]
+      }
+    },
+    {
+      "project": "restaurant",
+      "stage": "competitors",
+      "rubrics": {
+        "process": [
+          {
+            "property": "Использованы известные вводные, нет ненужного повторного вопроса",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Подходящая методика применена к проекту",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Доступная боту работа выполнена, обещания подтверждены действиями",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Вопросы относятся к реальному пробелу/выбору; на «не знаю» есть помощь",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Поправка/отказ пользователя учтены, ошибки не замаскированы",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          }
+        ],
+        "result": [
+          {
+            "property": "Существенные условия и текущие решения сохранены",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Материал конкретен и соответствует форме результата этапа",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Существенные утверждения имеют подходящее основание",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Гипотезы, неизвестное и подтверждённые сведения различимы",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Понятен ближайший шаг, версии не противоречат друг другу",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          }
+        ]
+      }
+    },
+    {
+      "project": "bicycle",
+      "stage": "idea",
+      "rubrics": {
+        "process": [
+          {
+            "property": "Использованы известные вводные, нет ненужного повторного вопроса",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Подходящая методика применена к проекту",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Доступная боту работа выполнена, обещания подтверждены действиями",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Вопросы относятся к реальному пробелу/выбору; на «не знаю» есть помощь",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Поправка/отказ пользователя учтены, ошибки не замаскированы",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          }
+        ],
+        "result": [
+          {
+            "property": "Существенные условия и текущие решения сохранены",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Материал конкретен и соответствует форме результата этапа",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Существенные утверждения имеют подходящее основание",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Гипотезы, неизвестное и подтверждённые сведения различимы",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Понятен ближайший шаг, версии не противоречат друг другу",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          }
+        ]
+      }
+    },
+    {
+      "project": "bicycle",
+      "stage": "audience",
+      "rubrics": {
+        "process": [
+          {
+            "property": "Использованы известные вводные, нет ненужного повторного вопроса",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Подходящая методика применена к проекту",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Доступная боту работа выполнена, обещания подтверждены действиями",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Вопросы относятся к реальному пробелу/выбору; на «не знаю» есть помощь",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Поправка/отказ пользователя учтены, ошибки не замаскированы",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          }
+        ],
+        "result": [
+          {
+            "property": "Существенные условия и текущие решения сохранены",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Материал конкретен и соответствует форме результата этапа",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Существенные утверждения имеют подходящее основание",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Гипотезы, неизвестное и подтверждённые сведения различимы",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Понятен ближайший шаг, версии не противоречат друг другу",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          }
+        ]
+      }
+    },
+    {
+      "project": "bicycle",
+      "stage": "competitors",
+      "rubrics": {
+        "process": [
+          {
+            "property": "Использованы известные вводные, нет ненужного повторного вопроса",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Подходящая методика применена к проекту",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Доступная боту работа выполнена, обещания подтверждены действиями",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Вопросы относятся к реальному пробелу/выбору; на «не знаю» есть помощь",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Поправка/отказ пользователя учтены, ошибки не замаскированы",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          }
+        ],
+        "result": [
+          {
+            "property": "Существенные условия и текущие решения сохранены",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Материал конкретен и соответствует форме результата этапа",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Существенные утверждения имеют подходящее основание",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Гипотезы, неизвестное и подтверждённые сведения различимы",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          },
+          {
+            "property": "Понятен ближайший шаг, версии не противоречат друг другу",
+            "status": "not_run",
+            "reason": "",
+            "evidence": ""
+          }
+        ]
+      }
+    }
+  ]
+}
