@@ -4,13 +4,15 @@
 
 Бот помогает пройти от формулировки идеи до подробного брифа для внешней разработки. Ниже — реальные экраны текущего локального приложения, снятые 17 ноября 2026 года.
 
-**[Презентация · PDF, 17 слайдов](docs/presentation/CoFounder-Govorov-2026-11-17.pdf)** · [Все 7 экранов с пояснениями](docs/screenshots/README.md) · [Архитектура](docs/architecture.md)
+**[Презентация · PDF, 17 слайдов](docs/presentation/CoFounder-Govorov-2026-11-17.pdf)** · [Все 9 экранов с пояснениями](docs/screenshots/README.md) · [Архитектура](docs/architecture.md)
 
-![СменаЛайт: сформулированная идея и маршрут проекта](docs/screenshots/02-smenalight-idea.png)
+![СменаЛайт: сформулированная идея и маршрут проекта в тёмной теме](docs/screenshots/02-smenalight-idea.png)
 
 *«СменаЛайт» — учебный проект про согласование смен в кофейне. На экране сохранён настоящий ответ AI; спрос и коммерческий эффект не подтверждены.*
 
 ## Интерфейс
+
+Основной показ — в тёмной теме. Светлая тема сохранена ниже для сравнения.
 
 <table>
 <tr>
@@ -24,6 +26,16 @@
 </table>
 
 [Материалы проекта](docs/screenshots/README.md#материалы-проекта) · [Мобильный интерфейс](docs/screenshots/README.md#интерфейс-на-телефоне). Каждый снимок можно открыть в исходном разрешении.
+
+<details>
+<summary>Светлая тема — начало работы и идея проекта</summary>
+
+<table><tr>
+<td width="50%"><a href="docs/screenshots/08-new-project-light.png"><img src="docs/screenshots/08-new-project-light.png" alt="Начало работы в светлой теме"></a></td>
+<td width="50%"><a href="docs/screenshots/09-smenalight-idea-light.png"><img src="docs/screenshots/09-smenalight-idea-light.png" alt="Идея СменаЛайт в светлой теме"></a></td>
+</tr></table>
+
+</details>
 
 ## Что реализовано
 
