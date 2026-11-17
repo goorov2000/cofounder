@@ -25,7 +25,8 @@
   --ds-space-12: 48px;
   --ds-radius-control: 8px;
   --ds-radius-card: 16px;
-  --ds-radius-panel: 28px;
+  /* The project route card defines the shared surface radius. */
+  --ds-radius-panel: var(--ds-radius-card);
   --ds-radius-pill: 999px;
   --ds-control-sm: 32px;
   --ds-control-md: 40px;

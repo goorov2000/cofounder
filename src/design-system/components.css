@@ -106,4 +106,4 @@
 @media (pointer: coarse), (max-width: 639px) { .ds-answer-toolbar .ds-answer-action { width: 44px; height: 44px; min-height: 44px; } .ds-answer-menu button { min-height: 44px; } }
 @media (pointer: coarse) { .ds-button, .icon-button { min-width: 44px; min-height: 44px; } }
 @media (max-width: 639px) { .ds-composer-actions .ds-composer-send, .ds-composer-actions .icon-button { width: 44px; height: 44px; min-height: 44px; } }
-@media (max-width: 639px) { .ds-card { padding: var(--ds-space-6); border-radius: 20px; } .ds-card-heading { flex-wrap: wrap; } }
+@media (max-width: 639px) { .ds-card { padding: var(--ds-space-6); } .ds-card-heading { flex-wrap: wrap; } }

@@ -135,7 +135,7 @@ button svg, a svg { flex-shrink: 0; }
 .placeholder-screen { max-width: 700px; padding: 64px 42px; }
 .placeholder-screen h2 { margin-top: 12px; font-size: 28px; }
 .placeholder-screen p { margin: 20px 0 28px; color: var(--muted); line-height: 1.75; }
-.modal { padding: 0; border: 1px solid var(--border); border-radius: 18px; color: var(--ink); background:var(--ds-surface); width: min(620px, calc(100vw - 32px)); max-height: calc(100dvh - 48px); box-shadow: var(--ds-shadow-dialog); }
+.modal { padding: 0; border: 1px solid var(--border); border-radius: var(--ds-radius-panel); color: var(--ink); background:var(--ds-surface); width: min(620px, calc(100vw - 32px)); max-height: calc(100dvh - 48px); box-shadow: var(--ds-shadow-dialog); }
 .modal::backdrop { background: var(--ds-scrim); backdrop-filter: blur(2px); }
 .modal-surface { display: flex; flex-direction: column; max-height: calc(100dvh - 50px); }
 .modal-heading { flex-shrink: 0; display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 18px 22px; border-bottom: 1px solid var(--border); }
@@ -156,7 +156,7 @@ button svg, a svg { flex-shrink: 0; }
 .markdown blockquote { border-left: 3px solid var(--ds-accent); margin: 18px 0; padding: 1px 18px; color: var(--muted); background: var(--canvas); }
 .markdown pre { max-width: 100%; overflow-x: auto; padding: 14px; border-radius: 8px; background: var(--canvas); font-size: 12px; }
 .markdown code { font-size: .9em; background: var(--canvas); padding: 2px 4px; border-radius: 4px; }
-.markdown-table { width: 100%; overflow-x: auto; margin: 18px 0; border: 1px solid var(--border); border-radius: 8px; }
+.markdown-table { width: 100%; overflow-x: auto; margin: 18px 0; border: 1px solid var(--border); border-radius: var(--ds-radius-card); }
 .markdown table { width: 100%; min-width: 100%; border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums; }
 .markdown th, .markdown td { min-width: 10ch; padding: 10px 14px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--border); white-space: normal; overflow-wrap: break-word; }
 .markdown th { background: var(--canvas); font-weight: 500; }
@@ -188,7 +188,7 @@ button svg, a svg { flex-shrink: 0; }
   .app-shell, .app-shell.with-route { grid-template-columns: 76px minmax(0, 1fr); }
   .app-shell.nav-expanded, .app-shell.nav-expanded.with-route { grid-template-columns: 220px minmax(0, 1fr); }
   .welcome-content { padding-top: 36px; }
-  .route-drawer { width: min(350px, calc(100vw - 28px)); margin: 12px 12px 12px auto; height: calc(100dvh - 24px); max-height: none; border-radius: 16px; }
+  .route-drawer { width: min(350px, calc(100vw - 28px)); margin: 12px 12px 12px auto; height: calc(100dvh - 24px); max-height: none; border-radius: var(--ds-radius-panel); }
   .route-drawer .modal-surface { height: 100%; max-height: 100%; }
   .route-drawer .route-heading h2 { display: none; }
   .route-drawer .route-heading p br { display: none; }
@@ -224,7 +224,7 @@ button svg, a svg { flex-shrink: 0; }
   .connection-status { padding: 11px 2px 9px; font-size: 9px; gap: 7px; }
   .connection-status strong { font-size: 10px; }
   .connection-status > span > span { display: inline; }
-  .composer { padding: 13px 10px 8px; border-radius: 13px; }
+  .composer { padding: 13px 10px 8px; border-radius: var(--ds-radius-panel); }
   .composer textarea { min-height: 46px; font-size: 16px; line-height: 1.5; }
   .composer textarea::placeholder { font-size: 13px; }
   .composer-bottom { margin-top: 5px; gap: 5px; }
@@ -240,6 +240,6 @@ button svg, a svg { flex-shrink: 0; }
   .nav-drawer .modal-surface { max-height: 100%; }
 }
 .save-indicator{font-size:12px;color:var(--muted,var(--ds-text-secondary))}
-.project-picker,.project-modal-actions button,.import-control,.storage-warning button{border:1px solid var(--ds-border);background:var(--ds-surface);color:var(--ds-accent);border-radius:9px;padding:9px 13px;font:inherit;cursor:pointer}
-.project-list{display:grid;gap:8px;margin:22px 0}.project-list button{display:flex;flex-direction:column;text-align:left;gap:5px;border:1px solid var(--ds-border);border-radius:12px;padding:14px;background:var(--ds-canvas);font:inherit;color:var(--ds-text)}.project-list button[aria-pressed=true]{border-color:var(--ds-accent);background:var(--ds-accent-subtle)}.project-list span{font-size:13px;color:var(--ds-text-secondary)}.project-modal-actions{display:flex;gap:10px;flex-wrap:wrap}.import-control{display:grid;gap:8px;max-width:100%}.import-control input{max-width:100%;font-size:13px}.danger-button{color:var(--ds-danger)!important}.storage-warning{padding:12px 22px;background:var(--ds-warning-bg);border-bottom:1px solid var(--ds-warning);font-size:13px}.storage-warning p{margin:0 0 8px}.storage-warning button{margin:3px;font-size:12px}.refinement-link{display:block;background:transparent;border:0;color:var(--ds-accent);text-align:left;font:inherit;font-size:12px;padding:5px 0}.main-content { display: flex; flex-direction: column; min-height: 0; }
+.project-picker,.project-modal-actions button,.import-control,.storage-warning button{border:1px solid var(--ds-border);background:var(--ds-surface);color:var(--ds-accent);border-radius:var(--ds-radius-control);padding:9px 13px;font:inherit;cursor:pointer}
+.project-list{display:grid;gap:8px;margin:22px 0}.project-list button{display:flex;flex-direction:column;text-align:left;gap:5px;border:1px solid var(--ds-border);border-radius:var(--ds-radius-card);padding:14px;background:var(--ds-canvas);font:inherit;color:var(--ds-text)}.project-list button[aria-pressed=true]{border-color:var(--ds-accent);background:var(--ds-accent-subtle)}.project-list span{font-size:13px;color:var(--ds-text-secondary)}.project-modal-actions{display:flex;gap:10px;flex-wrap:wrap}.import-control{display:grid;gap:8px;max-width:100%}.import-control input{max-width:100%;font-size:13px}.danger-button{color:var(--ds-danger)!important}.storage-warning{padding:12px 22px;background:var(--ds-warning-bg);border-bottom:1px solid var(--ds-warning);font-size:13px}.storage-warning p{margin:0 0 8px}.storage-warning button{margin:3px;font-size:12px}.refinement-link{display:block;background:transparent;border:0;color:var(--ds-accent);text-align:left;font:inherit;font-size:12px;padding:5px 0}.main-content { display: flex; flex-direction: column; min-height: 0; }
 .main-content > .workspace-screen { flex: 1; min-height: 0; }
